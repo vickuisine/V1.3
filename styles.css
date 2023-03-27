@@ -252,3 +252,66 @@ body
   text-align: center;
   text-transform: uppercase;
 }
+@media (max-width: 602px) {
+  body
+    > div
+    > header
+    > div.is-layout-flex.wp-container-7.wp-block-columns.has-raft-fg-alt-background-color.has-background
+    > div.is-layout-flow.wp-block-column.is-vertically-aligned-top,
+  #wp-block-search__input-5 {
+    display: none;
+  }
+  body
+    > div
+    > header
+    > div.is-layout-flex.wp-container-7.wp-block-columns.has-raft-fg-alt-background-color.has-background {
+    padding: 0;
+  }
+  body > div > header {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  body
+    > div
+    > header
+    > div.is-layout-constrained.wp-block-group.has-raft-bg-alt-background-color.has-background {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1.36rem;
+    margin-left: 2rem !important;
+  }
+  body
+    > div
+    > header
+    > div.is-layout-flex.wp-container-7.wp-block-columns.has-raft-fg-alt-background-color.has-background
+    > div:nth-child(3)
+    > form
+    > div
+    > button {
+    padding: 13px 20px;
+    font-weight: 300;
+  }
+  body
+    > div
+    > header
+    > div.is-layout-flex.wp-container-7.wp-block-columns.has-raft-fg-alt-background-color.has-background {
+    padding: 0;
+    width: 100%;
+    align-content: center;
+    justify-content: flex-end;
+  }
+  body
+    > div
+    > div.is-layout-flow.wp-block-group.has-raft-bg-alt-background-color.has-background {
+    display: none;
+  }
+  body
+    > div
+    > header
+    > div.is-layout-constrained.wp-block-group.has-raft-bg-alt-background-color.has-background
+    > p {
+    font-size: 46px !important;
+  }
+}

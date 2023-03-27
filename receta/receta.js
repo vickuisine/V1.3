@@ -62,42 +62,29 @@ function graficarElemento(dato) {
   const listaM = document.createElement("UL");
 
   for (const key in dato.Ingredientes) {
-    ingredientes = [];
-    lista = document.createElement("LI");
+    // ingredientes = [];
+    lista = document.createElement("UL");
+    lista.textContent = key;
 
-    if (!(typeof dato.Ingredientes[key] == "string")) {
-      tituloContenido = document.createElement("h4");
-      tituloContenido.textContent = key;
+    if (typeof dato.Ingredientes[key] == "string") {
+      const ul = document.createElement("ul");
+      const li = document.createElement("li");
+      li.textContent = key + "  " + dato.Ingredientes[key];
+      ul.appendChild(li);
+      lista.appendChild(ul);
+      listaM.appendChild(lista);
     } else {
-      elementoConetenido = document.createElement("P");
-      elementoConetenido.textContent = key;
+      const ul = document.createElement("ul");
 
-      elementoCantidad = document.createElement("P");
-      elementoCantidad.textContent = dato.Ingredientes[key];
-
-      lista.appendChild(elementoConetenido);
-      lista.appendChild(elementoCantidad);
-
-      cl(key);
-    }
-    listaM.appendChild(lista);
-    //cl(listaM);
-
-    for (const ingrediente in dato.Ingredientes[key]) {
-      ingredientes.push(dato.Ingredientes[key][ingrediente]);
+      for (const ky in dato.Ingredientes[key]) {
+        const li = document.createElement("li");
+        li.innerText = `${ky}: ${dato.Ingredientes[key][ky]}`;
+        ul.appendChild(li);
+        lista.appendChild(ul);
+        listaM.appendChild(lista);
+      }
     }
   }
-  lista = document.createElement("UL");
-  lista.appendChild(tituloContenido);
-
-  ingredientes.forEach((e) => {
-    const itemLista = document.createElement("LI");
-    itemLista.textContent = e;
-    lista.appendChild(itemLista);
-  });
-
-  listaM.appendChild(lista);
-  cl(listaM);
 
   const titular = document.querySelector(
     "body > div > div:nth-child(3) > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-dd3ff82.elementor-section-content-middle.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-f2dbe12.elementor-widget.elementor-widget-heading"
@@ -108,5 +95,5 @@ function graficarElemento(dato) {
     "body > div > div:nth-child(3) > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-42232ca.elementor-section-content-middle.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-61f693a.elementor-widget.elementor-widget-text-editor > div > p"
   );
 
-  desci.textContent = dato.proceso;
+  desci.textContent = dato.procedimiento;
 }
