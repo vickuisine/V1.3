@@ -134,7 +134,7 @@ function graficarColumnaRecientes(dato) {
   img.classList.add("elementor-widget-container");
   const datoDeImagen = "../img/" + dato.imagen + ".jpg";
   img.src = datoDeImagen;
-  img.setAttribute("width", 576);
+  img.setAttribute("width", 247);
 
   const div3p = document.createElement("DIV");
   div3p.classList.add(
@@ -197,7 +197,7 @@ function graficarColumnaRecientes2(dato) {
   img.classList.add("elementor-widget-container");
   const datoDeImagen = "../img/" + dato.imagen + ".jpg";
   img.src = datoDeImagen;
-  img.setAttribute("width", 576);
+  img.setAttribute("width", 247);
 
   const div3p = document.createElement("DIV");
   div3p.classList.add(
@@ -261,7 +261,7 @@ function graficarPortada(dato) {
   img.classList.add("attachment-large", "size-large", "wp-image-381");
   const datoDeImagen = "img/" + dato.imagen + ".jpg";
   img.src = datoDeImagen;
-  img.setAttribute("width", 576);
+  img.setAttribute("width", 247);
 
   const enlace = document.createElement("A");
   enlace.href = "/receta/?receta=" + dato.nombre;

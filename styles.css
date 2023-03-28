@@ -252,6 +252,9 @@ body
   text-align: center;
   text-transform: uppercase;
 }
+body > div > footer > div {
+  overflow: hidden;
+}
 @media (max-width: 602px) {
   body
     > div
@@ -269,7 +272,7 @@ body
   }
   body > div > header {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row-reverse;
     justify-content: center;
   }
@@ -279,8 +282,16 @@ body
     > div.is-layout-constrained.wp-block-group.has-raft-bg-alt-background-color.has-background {
     display: flex;
     flex-direction: row-reverse;
-    gap: 1.36rem;
-    margin-left: 2rem !important;
+    position: absolute;
+    gap: 10%;
+    left: 20%;
+  }
+  body
+    > div
+    > header
+    > div.is-layout-constrained.wp-block-group.has-raft-bg-alt-background-color.has-background
+    > div {
+    margin-block-start: 12px;
   }
   body
     > div
@@ -297,8 +308,9 @@ body
     > div
     > header
     > div.is-layout-flex.wp-container-7.wp-block-columns.has-raft-fg-alt-background-color.has-background {
-    padding: 0;
-    width: 100%;
+    padding: 0 !important;
+    z-index: -10;
+    margin: 0 0 0 67%;
     align-content: center;
     justify-content: flex-end;
   }
@@ -312,6 +324,6 @@ body
     > header
     > div.is-layout-constrained.wp-block-group.has-raft-bg-alt-background-color.has-background
     > p {
-    font-size: 46px !important;
+    font-size: 36px !important;
   }
 }
