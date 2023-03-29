@@ -116,7 +116,7 @@
   },
   {
     "nombre": "PAN SIN AMASADO",
-    "tipo": "Saludable",
+    "tipo": "saludables",
     "descripcion": "Si querés empezar a preparar tu propio pan pero no tenés tiempo para ponerte a amasar, ¡esta receta es para vos! Podés preparar varias piezas para porcionar, congelar y tener pan para toda la semana, solo tenés que multiplicar la receta las veces que vos quieras👌🏽",
     "imagen": "6",
     "Ingredientes": {
@@ -248,7 +248,7 @@
   },
   {
     "nombre": "BUDÍN DE PAN SIN AZÚCAR❤️",
-    "tipo": "panaderia",
+    "tipo": "saludables",
     "descripcion": "Hoy te invito a darle una segunda oportunidad a ese pan duro que tenés en tu alacena de una manera más saludable😌‼️La cantidad de comida que se desperdicia en el mundo es inimaginable. Es importante accionar para disminuir este desperdicio y enseñar a las futuras generaciones que el cambio empieza por casa. ¿Te sumás al cambio?❤️ Acá va la receta. De más está decir que este postre es RIQUÍSIMO y está hecho con consciencia, ya que reutilizamos ingredientes y lo estamos haciendo más nutritivo para nosotros😌💛",
     "imagen": "12",
     "Ingredientes": {
@@ -512,7 +512,7 @@
   },
   {
     "nombre": "TORTA DE PERA",
-    "tipo": "reposteria",
+    "tipo": "saludables",
     "descripcion": "Una opción rica, fácil y rápida para merendar en estos días de calor☀️. Es súper húmeda, suave y ligera. Tiene un ingrediente secreto y ese es el puré de pera. Este le aporta a la preparación más humedad y dulzor sin la necesidad de agregar más azúcar!! ¿Es genial no?😍",
     "imagen": "24",
     "Ingredientes": {
@@ -610,39 +610,12 @@
     },
     "procedimiento": "1) Aceitar ligeramente un molde y reservar. 2) Colocar el azúcar en una sartén y fundir. 3) Una vez que se forme un caramelo retirar del fuego. 4) Agregar el maní y la pizca de sal y mezclar. 5) Rápidamente colocarlo en el molde y dejar que enfríe y solidifique por 20 minutos."
   },
+
   {
     "nombre": "TARTA DE RICOTTA SÚPER CREMOSA RELLENA DE DULCE DE LECHE🔥😍",
     "tipo": "panaderia",
     "descripcion": "Esta tarta de ricotta súper cremosa rellena de dulce de leche es una delicia. La receta es una versión adaptada de la tarta de ricotta de mi hermano @elpelucocina. Cuando corté la tarta pensé que no había cuajado el relleno, pero al probarla supe que había salido mucho mejor de lo esperado. Tienen que probarla si quieren tocar el cielo💙",
-    "imagen": "",
-    "Ingredientes": {
-      "Masa": {
-        "harina": "400 g de harina 0000",
-        "polvo de hornear": "10 g de polvo de hornear",
-        "manteca": "200 g de manteca",
-        "azúcar": "120 g de azúcar",
-        "huevos": "2",
-        "sal": "5 g de sal",
-        "ralladura de limón": "Ralladura de 1 limón"
-      },
-      "Crema de ricotta": {
-        "ricotta": "300 g de ricotta",
-        "queso crema": "225 g de queso crema",
-        "crema de leche": "75 g de crema de leche",
-        "azúcar": "120 g de azúcar",
-        "huevos": "3",
-        "esencia de vainilla": "2 cucharadas de esencia de vainilla",
-        "ralladura de limón": "Ralladura de 1/2 limón"
-      },
-      "dulce de leche": "300 g de dulce de leche repostero"
-    },
-    "procedimiento": "Para el relleno, mezclar todos los ingredientes y reservar. Para la masa, batir la manteca pomada con el azúcar y la ralladura de limón hasta obtener una crema blanca. Agregar los huevos y emulsionar. Añadir la harina, el polvo para hornear y la sal. Mezclar hasta formar una masa, no amasar. Colocar la masa entre dos papel film y mandar al freezer por 1 hora. Pasado el tiempo, sacar del freezer y estirar con un palote sobre papel film. Forrar una tartera y cortar el excedente. Volcar el relleno de ricotta y dulce de leche. Llevar al horno precalentado a 180 grados por 40-45 minutos o hasta que la tarta esté dorada. Dejar enfriar antes de servir."
-  },
-  {
-    "nombre": "TARTA DE RICOTTA SÚPER CREMOSA RELLENA DE DULCE DE LECHE🔥😍",
-    "tipo": "panaderia",
-    "descripcion": "Esta tarta de ricotta súper cremosa rellena de dulce de leche es una delicia. La receta es una versión adaptada de la tarta de ricotta de mi hermano @elpelucocina. Cuando corté la tarta pensé que no había cuajado el relleno, pero al probarla supe que había salido mucho mejor de lo esperado. Tienen que probarla si quieren tocar el cielo💙",
-    "imagen": "",
+    "imagen": "29",
     "Ingredientes": {
       "Masa": {
         "harina": "400 g de harina 0000",
@@ -670,7 +643,7 @@
     "nombre": "Budín de pan BAJO EN AZÚCAR",
     "tipo": "panaderia",
     "descripcion": "Levantá la mano si sos fan del budín de pan como yo!!🙋🏽‍♀️ Hoy te traigo esta receta para que les des una segunda vida a esos pancitos duros y secos que tenés en la alacena pero de una manera mucho más ligera y sana🌱 Antes de pasar a la receta contame de que team sos: ¿Budín de pan o Flan? Yo budín de pan para siempre!😍 Muy buen tip: acompañar esta delicia con dulce de leche sin azúcar y crema de leche batida con stevia 🤤",
-    "imagen": "",
+    "imagen": "12",
     "Ingredientes": {
       "Masa": {
         "pan": "500 g de pan (puede ser común, integral o incluso medialunas)",
@@ -690,5 +663,513 @@
       ]
     },
     "procedimiento": "Trocear el pan, colocarlo en un bowl y reservar. Hervir la leche y luego verterla sobre el pan troceado. En un bowl aparte desligar los huevos y añadir la stevia, la ralladura de naranja, la ralladura de limón y la esencia de vainilla. Incorporar la mezcla de huevos a la de pan y mezclar. Caramelo opcional: derretir el azúcar en una sartén y una vez que obtenga un color caramelo claro colocarlo en una flanera o molde de 24cm. Con mucho cuidado, moverlo para que el caramelo cubra las paredes del molde. Dejar que este se enfríe y endurezca. Colocar la mezcla de pan en el molde (acaramelado o no) y luego colocarlo en una bandeja apta para horno con agua para realizar una cocción a baño maria. Luego tapar con papel aluminio y hornear a 160 grados C por 60 minutos."
+  },
+  {
+    "nombre": "TIRAMISÚ☕️🇮🇹",
+    "tipo": "postre",
+    "descripcion": "Hoy te enseño a hacer el postre italiano más famoso🇮🇹. El tiramisú es un postre moderno que surge en los años cincuenta en el noroeste de Italia. Al principio no llevaba ni queso mascarpone ni crema de leche por que la idea era hacer un tentempié ligero y de efecto fortalecedor y energizante, por lo tanto sus ingredientes eran solamente huevos, azúcar, galletas (llamados bizcochos de soletilla), café expresso y cacao en polvo.",
+    "imagen": "30",
+    "Ingredientes": {
+      "vainillas": "500 g de vainillas",
+      "café": "250 g de café + 20 g de azúcar",
+      "Crema de yemas": {
+        "yemas": "4 yemas",
+        "azúcar": "80 g de azúcar",
+        "agua": "30 g de agua"
+      },
+      "Crema de queso": {
+        "queso mascarpone": "200 g de queso mascarpone",
+        "queso crema": "100 g de queso crema",
+        "crema de leche": "200 g de crema de leche"
+      },
+      "Cacao amargo": "c/n"
+    },
+    "procedimiento": "Preparar un café expresso y dejar enfriar. Para la crema de yemas, batir las yemas con el azúcar y el agua a baño maría hasta obtener una crema. Para la crema de queso, mezclar el queso mascarpone, el queso crema y la crema de leche hasta obtener una crema homogénea. Mezclar el café con 20 gramos de azúcar. Para el armado del tiramisú, mojar las vainillas en el café con azúcar y colocarlas en el fondo de una fuente. Cubrir con la mitad de la crema de queso y luego con la crema de yemas. Repetir la operación con una segunda capa de vainillas, crema de queso y crema de yemas. Espolvorear con cacao amargo y refrigerar por 4 horas antes de servir."
+  },
+  {
+    "nombre": "PAN MULTICEREAL🌾💛🤩",
+    "tipo": "panaderia",
+    "descripcion": "Este riquísimo pan multicereal es perfecto para el desayuno, para preparar sándwiches o como acompañante de las comidas. Es súper nutritivo, ya que está elaborado con cereales 100% integrales y no posee ningún tipo de azúcar añadido. Lo mejor de todo, es que con esta receta salen dos panes de molde grandes, por lo cual resulta súper económica y rendidora.",
+    "imagen": "31",
+    "Ingredientes": {
+      "Masa": {
+        "harina integral": "600 g de harina integral",
+        "harina de centeno": "120 g de harina de centeno",
+        "avena remojada": "160 g de avena remojada (mezclar 60 g de avena tradicional + 100 g de agua + 1 cucharadita de vinagre y dejar remojar toda la noche)",
+        "levadura seca": "10 g de levadura seca",
+        "semillas remojadas": "375 g de semillas remojadas (mezclar 125 g de semillas + 250 g de agua y dejar remojar toda la noche)",
+        "agua": "300 g de agua aproximadamente",
+        "aceite": "100 g de aceite",
+        "sal": "20 g de sal"
+      }
+    },
+    "procedimiento": "Para preparar el pan multicereal, mezclar la harina integral, la harina de centeno y la levadura seca. Añadir la avena remojada, las semillas remojadas, el agua, el aceite y la sal. Mezclar bien hasta obtener una masa homogénea. Amasar durante unos minutos y dejar reposar la masa en un lugar cálido hasta que doble su tamaño. Luego, dividir la masa en dos partes iguales y colocar en moldes de pan de 26 x 9 x 9 cm. Dejar reposar nuevamente hasta que vuelvan a duplicar su tamaño. Precalentar el horno a 200 grados y cocinar los panes durante 30-40 minutos o hasta que estén dorados. Dejar enfriar antes de cortar en rebanadas y disfrutar."
+  },
+  {
+    "nombre": "TARTA DE COCO CON DULCE DE LECHE - SÚPER HÚMEDA 🥥🤎",
+    "tipo": "panaderia",
+    "descripcion": "Esta tarta de coco con dulce de leche es súper húmeda y deliciosa. La masa es crocante y alimonada, y el relleno es suave y sabroso. Es una deliciosa variante del clásico dulce argentino.",
+    "imagen": "32",
+    "Ingredientes": {
+      "Masa Sucrée": {
+        "manteca": "110 g de manteca",
+        "azúcar": "135 g de azúcar",
+        "huevo": "1",
+        "harina": "250 g de harina 0000",
+        "polvo para hornear": "3 g de polvo para hornear",
+        "sal": "1 g de sal",
+        "agua": "15 g de agua (opcional)"
+      },
+      "dulce de leche": "700 g de dulce de leche repostero",
+      "Crema de coco": {
+        "coco rallado": "150 g de coco rallado",
+        "azúcar": "150 g de azúcar",
+        "crema de leche": "150 g de crema de leche",
+        "huevos": "2",
+        "esencia de vainilla": "esencia de vainilla"
+      }
+    },
+    "procedimiento": "Para la masa, batir la manteca con el azúcar hasta obtener una crema blanca. Agregar el huevo y mezclar. Agregar la harina, el polvo para hornear y la sal. Mezclar hasta formar una masa, no amasar. Si la masa queda muy seca, agregar los 15 g de agua. Envolver la masa en papel film y refrigerar por al menos 30 minutos. Luego estirar la masa y forrar una tartera. Para el relleno, mezclar el dulce de leche, la crema de coco, los huevos y la esencia de vainilla. Verter el relleno en la masa y llevar al horno precalentado a 180 grados por aproximadamente 45 minutos o hasta que la tarta esté dorada. Dejar enfriar antes de servir. ¡Disfruta!"
+  },
+  {
+    "nombre": "BAGELS ORIGINALES🥯💛",
+    "tipo": "panaderia",
+    "descripcion": "Un bagel es un pan que se cocina dos veces, primero se hierve y posteriormente se hornea. Esto permite crear una miga densa y una corteza ligeramente crujiente que lo hace ideal para preparar sándwiches🥪. Es originario de Polonia pero se consume mucho en Estados Unidos, principalmente en Nueva York, donde se encuentran los famosos Bagels rellenos de cream cheese o queso crema😍. Les dejo la receta y si los hacen después me cuentan😉❤️",
+    "imagen": "33",
+    "Ingredientes": {
+      "Masa": {
+        "harina": "500 g de harina",
+        "agua": "130 g de agua",
+        "leche": "130 g de leche",
+        "levadura seca": "5 g de levadura seca",
+        "manteca": "40 g de manteca",
+        "azúcar": "30 g de azúcar",
+        "sal": "10 g de sal",
+        "semillas de sésamo": "al gusto"
+      }
+    },
+    "procedimiento": "En un bowl grande, mezclar la harina, la levadura seca, el azúcar y la sal. En otro bowl, mezclar el agua, la leche y la manteca derretida. Agregar la mezcla líquida a la mezcla de harina y mezclar hasta formar una masa suave. Amasar durante unos 10 minutos. Hacer una bola con la masa y colocarla en un bowl engrasado. Cubrir y dejar reposar durante una hora en un lugar cálido. Pasado el tiempo, dividir la masa en 14 porciones iguales. Formar bolas con cada porción y luego hacer un agujero en el centro con el dedo pulgar. Estirar el agujero hasta que tenga unos 3 cm de diámetro. Colocar los bagels en una bandeja de horno y dejar reposar durante 15 minutos. Mientras tanto, precalentar el horno a 220 grados. En una olla grande, llevar a ebullición 3 litros de agua con 3 cucharadas de azúcar. Cuando el agua esté hirviendo, cocinar los bagels en tandas de 2 o 3 durante 30 segundos por cada lado. Retirar con una espumadera y colocarlos nuevamente en la bandeja de horno. Espolvorear las semillas de sésamo sobre los bagels y hornear durante 15 a 20 minutos hasta que estén dorados. Dejar enfriar antes de servir."
+  },
+  {
+    "nombre": "PAN DE MIEL🍯💛 ¡Miga súper suave y esponjosa!",
+    "tipo": "panaderia",
+    "descripcion": "Díganme que el pan de miel no les hace acordar a la cocina casera🥰 Es un producto taaan noble, hecho nada más que con paciencia, amor y miel pura💛 Este pan es tan suave y rico que no hace falta acompañarlo con nada nada. ¡Anímense a probarlo!",
+    "imagen": "35",
+    "Ingredientes": {
+      "Masa": {
+        "harina": "500 g de harina 000",
+        "agua o leche": "250 ml de agua o leche (mejor si es leche)",
+        "miel": "80 g de miel",
+        "manteca": "40 g de manteca",
+        "huevo": "1",
+        "sal": "6 g de sal",
+        "levadura seca": "5 g de levadura seca"
+      }
+    },
+    "procedimiento": "Mezclar todos los ingredientes y amasar hasta obtener una masa suave y elástica. Dejar reposar la masa en un lugar cálido y cubierta con un paño durante 1 hora o hasta que duplique su volumen. Luego dar forma a la masa, colocarla en un molde para pan y dejarla reposar durante 30 minutos. Precalentar el horno a 200 grados y hornear el pan durante 30-40 minutos o hasta que esté dorado. Dejar enfriar antes de servir."
+  },
+
+  {
+    "nombre": "BUDÍN DE NARANJA🍊 Perfecto para festejar la primavera🌸🌈💛",
+    "tipo": "panaderia",
+    "descripcion": "Esta receta de budín de naranja es perfecta para festejar la primavera. Es económica, fácil de hacer y súper húmeda. No necesitas una batidora especial para prepararla y puedes utilizar los ingredientes que tengas en tu casa.",
+    "imagen": "36",
+    "Ingredientes": {
+      "huevos": "3",
+      "azúcar": "100 g de azúcar",
+      "esencia de vainilla": "1 cucharada de esencia de vainilla",
+      "aceite de girasol": "100 g de aceite de girasol",
+      "jugo de naranja": "Jugo de una naranja",
+      "ralladura de naranja": "Ralladura de una naranja",
+      "harina": "150 g de harina 0000",
+      "polvo para hornear": "1 cucharada de polvo para hornear",
+      "sal": "1 pizca de sal"
+    },
+    "procedimiento": "En un bowl, batir los huevos con el azúcar y la esencia de vainilla hasta obtener una mezcla homogénea. Agregar el aceite de girasol y seguir batiendo. Incorporar el jugo y la ralladura de naranja. Tamizar la harina junto con el polvo para hornear y la sal. Agregar la mezcla de harina a la preparación anterior y mezclar bien. Colocar la preparación en un molde para budín previamente enmantecado y enharinado. Llevar al horno precalentado a 180°C durante aproximadamente 40-45 minutos o hasta que al insertar un palillo, este salga limpio. Dejar enfriar antes de desmoldar y servir. "
+  },
+  {
+    "nombre": "GRANOLA CON AVENA FERMENTADA Y CHÍA🌾",
+    "tipo": "desayuno",
+    "descripcion": "Esta granola no solo es deliciosa, sino también nutritiva gracias al proceso de fermentación de la avena que reduce los antinutrientes y aumenta la absorción de nutrientes. Además, está repleta de frutos secos y semillas que aportan sabor y textura.",
+    "imagen": "38",
+    "Ingredientes": {
+      "Avena Fermentada": {
+        "avena gruesa": "80 g de avena gruesa",
+        "agua": "140 g de agua",
+        "semillas de chía": "10 g de semillas de chía",
+        "azúcar mascabo o stevia líquida": "30 g de azúcar mascabo o 1 cucharada de stevia líquida",
+        "kefir/yogur/kombucha/masa madre": "1 cucharada de kefir / yogur / kombucha / masa madre",
+        "pizca de sal": "Pizca de sal"
+      },
+      "Frutos secos y semillas": {
+        "maní crudo activado": "30 g de maní crudo activado",
+        "almendras crudas activadas": "30 g de almendras crudas activadas",
+        "chocolate cobertura semiamargo": "30 g de chocolate cobertura semiamargo",
+        "opcional": "canela, coco rallado, pasas de uva, esencia de vainilla, cacao"
+      }
+    },
+    "procedimiento": "Lavar la avena 6-8 veces y fermentarla en un lugar no tan frío con agua, semillas de chía, azúcar mascabo o stevia líquida, kefir/yogur/kombucha/masa madre y una pizca de sal. Dejar fermentar por unas horas. Activar los frutos secos y semillas remojándolos en agua por 12 horas. Luego, mezclar la avena fermentada con los frutos secos y semillas y agregar los ingredientes opcionales. Hornear en una bandeja a 180 grados por 20-25 minutos, removiendo cada 10 minutos. Dejar enfriar antes de guardar en un frasco hermético."
+  },
+  {
+    "nombre": "HELADO DE LEMON PIE🍋🥧",
+    "tipo": "postre",
+    "descripcion": "¡Te vas a sorprender de lo fácil que es prepararlo! Si querés un postre rápido y sencillo, esta receta es la indicada.",
+    "imagen": "39",
+    "Ingredientes": {
+      "helado": {
+        "crema de leche": "500 g de crema de leche",
+        "leche condensada": "395 g de leche condensada",
+        "ralladura de limón": "Ralladura de 2 limones",
+        "jugo de limón": "Jugo de 4 limones",
+        "galletitas": "Galletitas de vainilla o limón",
+        "merengue italiano": "(2 claras + 120 g de azúcar + 120 g de agua)"
+      },
+      "merengue italiano": {
+        "claras": "2",
+        "azúcar": "120 g de azúcar",
+        "agua": "120 g de agua"
+      }
+    },
+    "procedimiento": "Para el helado, mezclar la crema de leche, la leche condensada, la ralladura de limón y el jugo de limón. Colocar en un recipiente apto para freezer y llevar al freezer por 4 horas. Triturar las galletitas y mezclarlas con el helado ya congelado. Para el merengue italiano, colocar en una cacerola el agua y por encima el azúcar, llevar a ebullición. Una vez que rompa el hervor batir las claras hasta que tripliquen su tamaño. Cuando el almíbar llegue a 118 grados agregarlo a las claras espumadas en forma de hilo mientras se bate. Continuar batiendo hasta obtener un merengue brillante y firme y hasta que tome temperatura ambiente. Servir el helado con el merengue italiano o merenguitos."
+  },
+  {
+    "nombre": "WOK ORIENTAL🍜🥠",
+    "tipo": "saludables",
+    "descripcion": "Cuando pruebes este plato vas a querer comerlo todo el tiempo!😍",
+    "imagen": "40",
+    "Ingredientes": {
+      "carne": "Lomo",
+      "verduras": {
+        "cebolla": "",
+        "pimiento rojo": "",
+        "pimiento verde": "",
+        "jengibre": "",
+        "ajo": ""
+      },
+      "salsa": {
+        "caldo de verduras": "1/2 pocillo",
+        "salsa de soja": "1/2 pocillo",
+        "aceite de sésamo": "1 cucharadita",
+        "miel": "1 cucharadita",
+        "almidón de maíz": "1 cucharadita"
+      },
+      "fideos": "Fideos de arroz"
+    },
+    "procedimiento": "Cortar la carne y las verduras en tiras finas. Calentar la sartén o wok y agregar un poco de aceite. Saltear la carne y las verduras hasta que estén doradas. Agregar el jengibre y el ajo picados y mezclar bien. En un bowl pequeño, mezclar todos los ingredientes de la salsa y agregarla a la sartén. Cocinar a fuego medio hasta que la salsa espese y cubra la carne y las verduras. Cocinar los fideos de arroz según las instrucciones del paquete y servir junto con la carne y las verduras. ¡Disfrutar!"
+  },
+  {
+    "nombre": "BROWNIE DE CHOCOLATE SÚPER HÚMEDO🤤",
+    "tipo": "panaderia",
+    "descripcion": "Esta receta es una 💣😍 Ideal para cuando queremos hacer un postre rápido, fácil y rico. Estos brownies salen súper húmedos, chocolatosos y suaves💛 Receta adaptada de la #1 @isabelvermal 😍 En el video hice el doble de esta receta👇🏽",
+    "imagen": "42",
+    "Ingredientes": {
+      "harina": "160 g de harina 0000",
+      "manteca": "280 g de manteca",
+      "chocolate cobertura semiamargo": "120 g de chocolate cobertura semiamargo",
+      "huevos": "3",
+      "azúcar": "200 g de azúcar",
+      "cacao amargo": "30 g de cacao amargo",
+      "sal": "2 g de sal"
+    },
+    "procedimiento": "Precalentar el horno a 180 grados Celsius. En un recipiente, derretir la manteca y el chocolate a baño María o en el microondas. Batir los huevos con el azúcar hasta que la mezcla blanquee. Agregar la manteca y el chocolate derretidos y mezclar. Incorporar la harina tamizada, el cacao y la sal, mezclando suavemente. Verter la mezcla en un molde previamente enmantecado y enharinado. Hornear durante 25-30 minutos. Dejar enfriar antes de servir. Se puede acompañar con helado de crema americana o vainilla. "
+  },
+  {
+    "nombre": "BUDÍN CON CORAZÓN DE MEMBRILLO!!😍❤️",
+    "tipo": "panaderia",
+    "descripcion": "Este budín es una locuraaa😍 Sin duda es una receta ideal para los amantes del membrillo como yo🤤 Tiene una miga súper humeda y dulce y es muy fácil de hacer🙌🏽",
+    "imagen": "43",
+    "Ingredientes": {
+      "Masa": {
+        "harina": "150 g de harina 0000",
+        "manteca": "150 g de manteca",
+        "azúcar": "150 g de azúcar",
+        "huevos": "3",
+        "polvo de hornear": "10 g de polvo para hornear",
+        "sal": "1/2 cucharadita de sal"
+      },
+      "relleno": "C/n dulce de membrillo"
+    },
+    "procedimiento": "Batir la manteca pomada con el azúcar hasta obtener una crema blanca. Agregar los huevos de a uno y emulsionar. Tamizar la harina, el polvo para hornear y la sal y agregar a la mezcla anterior. Mezclar hasta obtener una masa homogénea. Verter 1/3 de la mezcla en un molde previamente enmantecado y enharinado. Colocar tiras de dulce de membrillo en el centro del budín y cubrir con el resto de la mezcla. Llevar al horno precalentado a 180 grados por 45-50 minutos o hasta que esté dorado y al insertar un palillo este salga limpio. Dejar enfriar antes de desmoldar y servir. "
+  },
+  {
+    "nombre": "“MANTECA” DE COCO CASERA🥥😍",
+    "tipo": "saludables",
+    "descripcion": "Esta “manteca” es súper versátil! Es perfecta para cocinar masas dulces, panes, saltear verduras y preparar leches vegetales!!❤️ Es una buen reemplazo vegano y sin lactosa de la manteca si es que no podés consumirla o no te gusta🙌🏽 Lo mejor es que para realizarla solamente necesitás COCO RALLADO. Si tenés coco en escamas también podés hacerla✅ Yo utilicé 👉🏽 500 g de coco rallado para llenar un frasco pequeño.",
+    "imagen": "44",
+    "Ingredientes": {
+      "Coco rallado": "500 g de coco rallado",
+      "Agua": "1/2 taza de agua"
+    },
+    "procedimiento": "Colocar el coco rallado en una procesadora de alimentos y procesar hasta que se forme una pasta espesa. Agregar la 1/2 taza de agua y procesar nuevamente hasta obtener una mezcla suave y homogénea. Colocar la mezcla en un frasco y guardar en la nevera hasta su uso. Esta “manteca” de coco casera se mantendrá fresca en la nevera durante varias semanas."
+  },
+  {
+    "nombre": "PAN DE BATATA🍠 PARA HAMBURGUESA🤩",
+    "tipo": "panaderia",
+    "descripcion": "Este pan de batata para hamburguesa es esponjoso, húmedo y tiene un delicioso sabor a batata.",
+    "imagen": "45",
+    "Ingredientes": {
+      "ESPONJA": {
+        "harina": "60 g de harina 000",
+        "leche": "100 g de leche tibia",
+        "levadura": "10 g de levadura seca o 30 g de levadura fresca"
+      },
+      "MASA": {
+        "harina": "500 g de harina 000",
+        "puré de batata": "230 g de puré de batata (batata envuelta en aluminio horneada a temperatura máxima por 40 minutos)",
+        "manteca": "100 g de manteca",
+        "leche": "entre 150 - 200 ml. Colocar de a poco para no pasarse.",
+        "huevos": "3",
+        "sal": "10 g de sal"
+      },
+      "Nota": "Este pan no es dulce. Si desean hacerlo dulce pueden agregarle 60 g de azúcar."
+    },
+    "procedimiento": "Para la esponja, mezclar la harina, la leche tibia y la levadura en un bowl hasta formar una pasta. Dejar fermentar durante 10 minutos en un lugar cálido y sin corrientes de aire. Para la masa, mezclar el puré de batata, la manteca derretida, los huevos y la sal. Agregar la esponja y la harina de a poco, alternando con la leche, hasta formar una masa homogénea y pegajosa. Amasar durante 10 minutos, tapar y dejar levar durante 1 hora y media o hasta que duplique su volumen. Dividir la masa en porciones de 100 g y formar bollos. Colocar en una placa aceitada, tapar y dejar levar durante 45 minutos o hasta que dupliquen su volumen. Hornear a 200 grados durante 15-20 minutos o hasta que estén dorados. Dejar enfriar antes de servir."
+  },
+
+  {
+    "nombre": "CUADRADITOS DE ARÁNDANOS Y LIMÓN!!🫐🍋😍",
+    "tipo": "panaderia",
+    "descripcion": "Los más ricos que vas a probar😍",
+    "imagen": "46",
+    "Ingredientes": {
+      "Budín": {
+        "harina": "250 g de harina 0000",
+        "azúcar mascabo": "50 g de azúcar mascabo",
+        "azúcar": "100 g de azúcar",
+        "arándanos": "150 g de arándanos @congenat",
+        "leche": "250 g de leche",
+        "manteca": "100 g de manteca",
+        "huevo": "1",
+        "ralladura de limón": "Ralladura de 1 limón",
+        "esencia de vainilla": "1 cucharadita de esencia de vainilla",
+        "canela en polvo": "1/2 cucharadita de canela en polvo",
+        "bicarbonato de sodio": "1 cucharadita de bicarbonato de sodio",
+        "polvo para hornear": "1 cucharadita de polvo para hornear",
+        "sal": "Pizca de sal"
+      },
+      "Crumble": {
+        "manteca": "40 g de manteca",
+        "harina": "60 g de harina",
+        "azúcar": "60 g de azúcar"
+      }
+    },
+    "procedimiento": "Precalentar el horno a 180°C. En un bol, mezclar la harina, el azúcar mascabo, el azúcar, los arándanos, la leche, la manteca derretida, el huevo, la ralladura de limón, la esencia de vainilla, la canela, el bicarbonato, el polvo para hornear y la sal. Colocar la mezcla en un molde cuadrado previamente enmantecado. Para el crumble, mezclar la manteca fría en cubos, la harina y el azúcar, formando una textura arenosa. Espolvorear por encima del budín. Llevar al horno por 35-40 minutos o hasta que el budín esté dorado. Dejar enfriar antes de cortar en cuadrados y servir."
+  },
+  {
+    "nombre": "Muffins frutales",
+    "tipo": "panaderia",
+    "descripcion": "La mejor cosa que podemos regalar es nuestro tiempo y nuestras enseñanzas💖. Acá te dejo una receta muy rica y saludable para que hagan en familia🥰.",
+    "imagen": "47",
+    "Ingredientes": {
+      "Masa": {
+        "harina": "250 g de harina 000",
+        "azúcar mascabo": "100 g de azúcar mascabo",
+        "aceite de girasol": "50 g de aceite de girasol",
+        "huevos": "3",
+        "banana pisada": "1",
+        "manzana en pequeños cubos": "1",
+        "leche": "150 g de leche",
+        "polvo para hornear": "10 g de polvo para hornear",
+        "esencia de vainilla": "1/2 cucharadita de esencia de vainilla",
+        "canela": "1/2 cucharadita de canela",
+        "sal": "Pizca de sal"
+      }
+    },
+    "procedimiento": "Para la masa, en un bowl mezclar los ingredientes secos: harina, azúcar mascabo, polvo para hornear, canela y sal. En otro bowl, mezclar los ingredientes líquidos: huevos, aceite de girasol, leche y esencia de vainilla. Agregar los ingredientes líquidos a los secos y mezclar. Agregar la banana pisada y la manzana en cubos y mezclar. Colocar la masa en moldes para muffins y hornear a 180°C durante 20-25 minutos o hasta que estén dorados. Dejar enfriar antes de servir."
+  },
+  {
+    "nombre": "BUDÍN DE MANDARINA VEGANO!🍊🌱",
+    "tipo": "panaderia",
+    "descripcion": "Budincito fácil, rápido y riquísimo para el mate!!😍 Yo lo hice con mandarinas pero pueden hacerlo con el cítrico que quieran.",
+    "imagen": "48",
+    "Ingredientes": {
+      "Secos": {
+        "harina 0000": "1 taza",
+        "harina integral": "1 taza",
+        "polvo para hornear": "1 cucharada",
+        "bicarbonato de sodio": "1/2 cucharadita",
+        "sal": "pizca"
+      },
+      "Húmedos": {
+        "aceite neutro": "1/4 taza",
+        "azúcar": "1/2 taza",
+        "jugo de mandarina": "jugo de 1 mandarina",
+        "ralladura de mandarina": "ralladura de 1 mandarina",
+        "esencia de vainilla": "1 cucharadita",
+        "jugo de limón": "1 cucharadita"
+      },
+      "Glasé": {
+        "azúcar impalpable": "200 g",
+        "jugo de mandarina": "cantidad necesaria"
+      }
+    },
+    "procedimiento": "Precalentar el horno a 170°C y enmantecar y enharinar una budinera. Mezclar los ingredientes húmedos y luego agregar los secos. Integrar todo sin batir. Colocar la mezcla en el molde y hornear por 40 minutos. Retirar y desmoldar una vez frío. Para el glasé, mezclar el azúcar impalpable junto con el jugo de mandarina. Colocar el glasé sobre el budín y decorar con ralladura de mandarina."
+  },
+  {
+    "nombre": "CHEESECAKE SIN HORNO🍓",
+    "tipo": "postre",
+    "descripcion": "Este cheesecake sin horno es una delicia y se prepara en una sartén de 20cm. No se pega ni se quema, sale perfecto. La salsa de frutos rojos congelados le da un sabor exquisito.",
+    "imagen": "49",
+    "Ingredientes": {
+      "Masa": {
+        "harina": "125 g de harina 000",
+        "azúcar": "75 g de azúcar",
+        "manteca": "50 g de manteca",
+        "huevo": "1/2 huevo",
+        "polvo de hornear": "3 g de polvo para hornear",
+        "esencia de vainilla": "1 cucharadita de esencia de vainilla",
+        "ralladura de limón": "Ralladura de limón",
+        "sal": "1/4 cucharadita de sal"
+      },
+      "Crema": {
+        "huevos": "3",
+        "azúcar": "100 g de azúcar",
+        "ralladura de limón": "Ralladura de 1/2 limón",
+        "esencia de vainilla": "1 cucharadita de esencia de vainilla",
+        "queso crema": "300 g de queso crema",
+        "crema de leche": "300 g de crema de leche",
+        "almidón de maíz": "1 cucharada de almidón de maíz",
+        "agua": "3 cucharadas de agua"
+      },
+      "Salsa de frutos rojos": {
+        "frutos rojos": "400 g de frutos rojos congelados",
+        "azúcar": "100 g de azúcar",
+        "almidón de maíz": "1/2 cucharadita de almidón de maíz",
+        "agua": "1 cucharada de agua"
+      }
+    },
+    "procedimiento": "Para la masa, batir el azúcar con la manteca, la ralladura de limón y la esencia de vainilla hasta obtener una crema blanca. Agregar el huevo y emulsionar. Por último, añadir la harina, el polvo para hornear y la sal y mezclar hasta formar una masa homogénea. No amasar. Colocar la masa dentro de papel film y refrigerar por 30 minutos. Luego utilizar.\n\nPara la crema, mezclar los huevos con el azúcar, la ralladura de limón y la esencia de vainilla. Agregar el queso crema, la crema de leche, el almidón de maíz y el agua. Mezclar bien.\n\nPara la salsa de frutos rojos, mezclar los frutos rojos con el azúcar y el almidón de maíz. Agregar el agua y mezclar bien. Calentar la mezcla en una olla hasta que espese.\n\nEn una sartén de 20cm, verter la masa de cheesecake y cocinar a fuego medio-bajo hasta que esté dorado en la parte inferior. Luego, verter la crema de cheesecake sobre la masa y continuar cocinando a fuego medio-bajo hasta que la crema se haya asentado"
+  },
+  {
+    "nombre": "CUADRADITOS CRUMBLE DE FRUTOS ROJOS🍓😍",
+    "tipo": "panaderia",
+    "descripcion": "Hoy te enseño a preparar estos cuadraditos con los frutos rojos congelados de @congenat 💞 Estoy utilizando el Mix 3 berries que contiene arándanos, moras y frambuesas💖",
+    "imagen": "50",
+    "Ingredientes": {
+      "Masa sablée de avena": {
+        "harina": "100 g de harina 0000",
+        "avena instantanea": "25 g de avena instantanea",
+        "manteca": "75 g de manteca",
+        "azúcar": "55 g de azúcar",
+        "yema": "1 yema",
+        "ralladura de limón": "ralladura de limón",
+        "esencia de vainilla": "1/2 cucharadita de esencia de vainilla",
+        "polvo para hornear": "1 cucharadita de polvo para hornear",
+        "sal": "pizca de sal"
+      },
+      "Relleno": {
+        "frutos rojos": "350 g de frutos rojos",
+        "azúcar": "100 g de azúcar",
+        "almidón de maíz": "20 g de almidón de maíz",
+        "ralladura de limón": "ralladura de limón"
+      },
+      "Crumble": {
+        "harina": "30 g de harina 0000",
+        "avena instantanea": "30 g de avena instantanea",
+        "azúcar": "30 g de azúcar",
+        "manteca": "30 g de manteca"
+      }
+    },
+    "procedimiento": "Para la masa, mezclar la harina, la avena, el azúcar, la ralladura de limón, la esencia de vainilla, el polvo para hornear y la sal. Agregar la manteca fría cortada en cubos y deshacerla con las manos o un cortapastas hasta que quede una mezcla arenosa. Agregar la yema y mezclar hasta formar una masa. Cubrir con papel film y mandar al freezer por 15 minutos. Para el relleno, mezclar los frutos rojos con el azúcar, el almidón de maíz y la ralladura de limón. Para el crumble, mezclar todos los ingredientes con las manos hasta formar una mezcla arenosa. Estirar la masa en una tartera, colocar el relleno de frutos rojos y cubrir con el crumble. Llevar al horno precalentado a 180 grados por 35-40 minutos o hasta que el crumble esté dorado. Dejar enfriar antes de cortar en cuadraditos. ¡Listo para disfrutar!"
+  },
+  {
+    "nombre": "TARTA DE CEBOLLA Y QUESO🧀 SIN HORNO!",
+    "tipo": "panaderia",
+    "descripcion": "La creadora de esta receta es @_dulcepauli 😍❤️ Vayan a ver su perfil que tiene un montón de recetas así de geniales💕. Hice esta delicia en mi sartén de 20 cm de @unchef.essen y salió INCREÍBLE!😍 La cebolla se cocinó literalmente en 10 minutos de forma pareja y uniforme, conservó toda la humedad y quedó muy sabrosa. Por otro lado, la masa quedó súper crocante y sequita.",
+    "imagen": "51",
+    "Ingredientes": {
+      "Masa": {
+        "harina": "250 g de harina 0000",
+        "agua": "100 g de agua",
+        "aceite": "60 g de aceite",
+        "sal": "5 g de sal",
+        "opcional": "15 g de mix de semillas"
+      },
+      "Relleno": {
+        "cebolla": "400 g de cebolla juliana o pluma",
+        "condimentos": "orégano, sal y pimienta",
+        "aceto balsámico": "",
+        "queso cremoso": "",
+        "queso para rallar": ""
+      }
+    },
+    "procedimiento": "Para el relleno, saltear la cebolla juliana con condimentos hasta que estén dorados y agregar el aceto balsámico. Dejar enfriar. Para la masa, mezclar todos los ingredientes hasta formar una masa homogénea. Estirar la masa en la sartén y cocinar por ambos lados. Agregar el relleno de cebolla y queso cremoso y cubrir con queso para rallar. Tapar con una tapa o papel aluminio y cocinar a fuego bajo por unos minutos hasta que el queso se derrita. Servir caliente."
+  },
+  {
+    "nombre": "EMPANADAS ÁRABES😍",
+    "tipo": "panaderia",
+    "descripcion": "Las mejores empanadas del mundo!!! El secreto es el descanso del relleno y de la masa en la heladera toda la noche y la adición de canela en polvo, una especia muy utilizada en el Medio Oriente🙌🏽",
+    "imagen": "52",
+    "Ingredientes": {
+      "Masa": {
+        "harina": "1 kg de harina 000",
+        "sal": "20 g de sal",
+        "levadura seca": "10 g de levadura seca",
+        "aceite de girasol": "100 ml de aceite de girasol",
+        "agua": "cantidad necesaria para obtener una masa blanda"
+      },
+      "Relleno": {
+        "carne molida": "1 kg de carne molida",
+        "cebolla": "1/2 kg de cebolla",
+        "tomate": "1/2 kg de tomate",
+        "jugo de limón": "150 ml de jugo de limón",
+        "sal": "25 g de sal",
+        "pimienta negra molida": "4 g de pimienta negra molida",
+        "canela molida": "3 g de canela molida"
+      }
+    },
+    "procedimiento": "Para el relleno, mezclar todos los ingredientes y dejar reposar en la heladera toda la noche. Para la masa, mezclar la harina con la sal y la levadura seca. Agregar el aceite y el agua, y mezclar hasta obtener una masa blanda. Dejar descansar en la heladera toda la noche. Al día siguiente, estirar la masa y cortar círculos. Colocar el relleno en el centro de cada círculo y cerrar en forma de media luna. Pintar con huevo batido y hornear en horno precalentado a 200 grados por 20-25 minutos o hasta que estén doradas."
+  },
+  {
+    "nombre": "DULCE O MERMELADA DE CAFÉ!!!☕️🍯",
+    "tipo": "panaderia",
+    "descripcion": "Una crema untable de café deliciosa y fácil de hacer para disfrutar con tostadas, galletas, tortas y más.",
+    "imagen": "53",
+    "Ingredientes": {
+      "crema de leche": "250 g de crema de leche",
+      "azúcar": "60 g de azúcar",
+      "café": "60 g de café (Pueden ser 60ml de expresso o 60 no de agua + 2 cucharadas de café instantáneo)"
+    },
+    "procedimiento": "Mezclar la crema de leche y el azúcar en una cacerola y llevar a fuego medio hasta que hierva. Agregar el café y seguir cocinando, revolviendo ocasionalmente, hasta que la mezcla espese y tenga la consistencia deseada (unos 20-25 minutos aproximadamente). Retirar del fuego y dejar enfriar antes de guardar en un frasco hermético en la nevera. ¡Disfrutar!"
+  },
+  {
+    "nombre": "MERENGUITOS!!!😍",
+    "tipo": "panaderia",
+    "descripcion": "Si sos fan de los merenguitos como yo, ¡esta es la receta perfecta para vos!🤩",
+    "imagen": "54",
+    "Ingredientes": {
+      "Merenguitos": {
+        "claras": "100 g de claras (3 unidades aproximadamente) No deben tener ningún rastro de yema porque si no el merengue no se forma.",
+        "azúcar": "100 g de azúcar",
+        "azúcar impalpable": "100 g de azúcar impalpable",
+        "sal": "Pizca de sal",
+        "esencia de vainilla": "Esencia de vainilla"
+      }
+    },
+    "procedimiento": ""
+  },
+  {
+    "nombre": "ALFAJORCITOS DE LIMÓN🍋",
+    "tipo": "panaderia",
+    "descripcion": "No hay nada que me vuelva más loca que los alfajores😍 Existen infinitas variedades, es por eso que hoy te voy a enseñar de todas ellas la más fresca, cítrica y deliciosa☝🏽😋",
+    "imagen": "55",
+    "Ingredientes": {
+      "Masa": {
+        "harina": "250 g de harina 0000",
+        "manteca": "150 g de manteca",
+        "azúcar impalpable": "110 g de azúcar impalpable",
+        "yemas": "2",
+        "ralladura de limón": "ralladura de un limón",
+        "sal": "pizca de sal"
+      },
+      "Relleno": {
+        "azúcar impalpable": "400 g de azúcar impalpable",
+        "manteca": "50 g de manteca",
+        "leche entera en polvo": "10 g de leche entera en polvo",
+        "jugo de limón": "jugo de limón c/n",
+        "sal": "pizca de sal"
+      }
+    },
+    "procedimiento": "Para la masa, mezclar la harina, el azúcar impalpable, la sal y la ralladura de limón. Agregar la manteca en trocitos y formar un arenado utilizando las yemas de nuestros dedos. Hacer este paso de manera rápida para no derretir la manteca con el calor corporal. Si se dispone de una batidora eléctrica utilizarla para realizar el arenado. Agregar las yemas y mezclar. Luego incorporar la harina sin amasar. Quedará una masa seca pero se debe evitar agregar líquido. Llevar a la mesada y presionar con la palma de la mano hasta formar una masa homogénea. Colocar la masa dentro de un papel film, estirarla de 1cm de grosor y llevar al freezer por 30 minutos. Una vez pasado el tiempo, cortar las tapas y colocarlas en una placa sin enmantecar. Llevarlas a la heladera por 5 minutos y luego hornear a 170 grados por 6-8 minutos. No deben dorarse. Para el relleno, batir la manteca junto con el azúcar impalpable, el jugo de limón, la leche en polvo y la sal hasta obtener una mezcla firme. Cuidar la cantidad de líquido. Para el armado, colocar el relleno en una manga pastelera y rellenar las tapas. Colocar los alfajores en el freezer 20 minutos antes de bañar para que no se escape el relleno."
   }
 ]
