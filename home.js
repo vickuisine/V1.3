@@ -1,9 +1,8 @@
 function cl(dat) {
   console.log(dat);
 }
-window.addEventListener("load", function () {
-  obtenerTodosLosDatos();
-});
+
+obtenerTodosLosDatos();
 
 // function preparado(datos) {
 //   datos.forEach((element) => {
