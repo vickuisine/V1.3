@@ -1930,7 +1930,34 @@
       </defs>
     </svg>
     
-    <div class="wp-site-blocks">
+    <seccion id="buscador" class="buscador none">
+      <section class="sectionP">
+
+        <input
+                    type="search"
+                    placeholder = "Buscar Recetas ..."
+                    id="wp-block-search__input-5"
+                    class="wp-block-search__input wp-block-search__input has-small-font-size imputGod"
+                    name="s"
+                    value=""
+                    placeholder=""
+                    
+                    style="
+                      border-width: 0px;
+                      border-style: none;
+                      border-radius: 7px;
+                    "
+                    required>
+          <h3 id="lupa2">X</h3>
+      </section>
+      <section class="section">
+        
+        
+      </section>
+      
+    </seccion>
+
+    <div id="mainDiv" class="wp-site-blocks">
       <header class="wp-block-template-part">
         <div
           class="is-layout-flex wp-container-7 wp-block-columns has-raft-fg-alt-background-color has-background"
@@ -2024,52 +2051,21 @@
                     ></a
                   >
                 </li>
+                <li>
+                  
+                </li>
               </ul>
             </div>
           </div>
 
           <div class="is-layout-flow wp-block-column"></div>
 
-          <div class="is-layout-flow wp-block-column" style="flex-basis: 25%">
-            <form
-              role="search"
-              method="get"
-              action="buscador.index.html"
-              class="wp-block-search__button-outside wp-block-search__text-button aligncenter wp-block-search"
-            >
-              <label
-                for="wp-block-search__input-5"
-                class="wp-block-search__label screen-reader-text"
-                >Buscar</label
-              >
-              <div class="wp-block-search__inside-wrapper" style="width: 100%">
-                <input
-                  type="search"
-                  id="wp-block-search__input-5"
-                  class="wp-block-search__input wp-block-search__input has-small-font-size"
-                  name="s"
-                  value=""
-                  placeholder=""
-                  style="
-                    border-width: 0px;
-                    border-style: none;
-                    border-radius: 7px;
-                  "
-                  required
-                /><button
-                  type="submit"
-                  class="wp-block-search__button has-background has-small-font-size wp-element-button"
-                  style="
-                    border-width: 0px;
-                    border-style: none;
-                    border-radius: 7px;
-                    background-color: #d4a262;
-                  "
-                >
-                  Buscar
-                </button>
-              </div>
-            </form>
+          <div class="is-layout-flow wp-block-column" >
+            <svg id="lupa" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search icono-lupa" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <circle cx="10" cy="10" r="7" />
+              <line x1="21" y1="21" x2="15" y2="15" />
+            </svg>
           </div>
         </div>
 
@@ -2229,7 +2225,7 @@
       </header>
 
       <div
-        class="is-layout-flow wp-block-group has-raft-bg-alt-background-color has-background"
+        class="is-layout-flow wp-block-group has-raft-bg-alt-background-color has-background "
         style="
           margin-top: 0px;
           margin-bottom: 0px;
@@ -4288,6 +4284,7 @@
       };
     </script>
     <script src="home.js"></script>
+    
     <script
       src="/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.10.2"
       id="elementor-frontend-js"

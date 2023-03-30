@@ -281,9 +281,12 @@ body > div > footer > div {
     > div
     > header
     > div.is-layout-flex.wp-container-7.wp-block-columns.has-raft-fg-alt-background-color.has-background
-    > div.is-layout-flow.wp-block-column.is-vertically-aligned-top,
-  #wp-block-search__input-5 {
+    > div.is-layout-flow.wp-block-column.is-vertically-aligned-top {
     display: none;
+  }
+
+  #wp-block-search__input-5 {
+    width: 110%;
   }
   body
     > div
@@ -292,16 +295,14 @@ body > div > footer > div {
     padding: 0;
   }
   body > div > header {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    justify-content: center;
   }
   body
     > div
     > header
     > div.is-layout-constrained.wp-block-group.has-raft-bg-alt-background-color.has-background {
     display: flex;
+    position: absolute !important;
+    top: 30px;
     flex-direction: row-reverse;
     position: absolute;
     gap: 10%;
@@ -374,4 +375,100 @@ body > div > footer > div {
   body > div > footer > div > div {
     flex-direction: column;
   }
+}
+.none {
+  display: none !important;
+}
+
+.imputGod {
+  width: 70%;
+
+  margin-bottom: 25px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.buscador {
+  pointer-events: auto;
+  overflow: auto;
+  position: relative;
+  z-index: 100;
+  width: 100vw;
+  height: 100%;
+  bottom: 0;
+  position: absolute;
+  background-color: white;
+}
+.enlaceLoco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 12rem;
+  height: 100%;
+  text-align: center;
+  gap: 15px;
+}
+.section,
+.sectionP {
+  top: 0;
+  position: sticky;
+
+  z-index: 1100;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.sectionP {
+  top: 0;
+  height: 26%;
+  padding-bottom: 50px;
+
+  z-index: 1200;
+}
+.section2 {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+.imagen-buscador {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+  border-radius: 12px;
+}
+.buscador > section > section > a > p {
+  text-align: center;
+}
+#lupa2 {
+  padding: 4px;
+  width: 50%;
+  text-align: center;
+  height: 100%;
+  color: #3127235c;
+}
+.icono-lupa {
+  text-align: center;
+  margin: auto;
+  color: #3127235c;
+}
+#mainDiv
+  > header
+  > div.is-layout-flex.wp-container-7.wp-block-columns.has-raft-fg-alt-background-color.has-background
+  > div:nth-child(3) {
+  display: flex;
+  flex-direction: row-reverse;
+  z-index: 100000;
+  padding: 4px;
+  width: 50%;
+  text-align: center;
+  height: 100%;
 }

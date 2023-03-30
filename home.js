@@ -1,7 +1,20 @@
 function cl(dat) {
   console.log(dat);
 }
+function funcionLupa() {
+  const lupa = document.querySelector("#lupa");
+  const main = document.querySelector("#mainDiv");
+  const buscador = document.querySelector("#buscador");
 
+  document.addEventListener("click", (e) => {
+    if (e.target == lupa || e.target == lupa2) {
+      cl(e);
+      main.classList.toggle("none");
+      buscador.classList.toggle("none");
+    }
+  });
+}
+funcionLupa();
 obtenerTodosLosDatos();
 
 // function preparado(datos) {
@@ -19,7 +32,6 @@ function obtenerParam() {
   xmlh.send();
 
   xmlh.onreadystatechange = function (e) {
-    cl(e.target.readyState);
     if (e.target.readyState == 3) {
       const datosJSON = this.responseText;
       const datosParam = JSON.parse(datosJSON);
@@ -35,7 +47,6 @@ function obtenerDatos(datosParam) {
   xmlh.open("GET", "datos.json", true);
   xmlh.send();
   xmlh.onreadystatechange = function (e) {
-    cl(e.target.readyState);
     if (e.target.readyState == 3) {
       const datosJSON = this.responseText;
       const datos = JSON.parse(datosJSON);
@@ -69,6 +80,7 @@ function buscarPortadaY_Populares(d, dp) {
   }
 }
 function preparado(datos, datosParam) {
+  buscador(datos);
   buscarPortadaY_Populares(datos, datosParam);
   buscarRecientes(datos);
 }
@@ -378,3 +390,74 @@ function graficarPopulares(dato) {
   div3p1.appendChild(p);
 }
 function graficarElemento(dato) {}
+function removerTodosLosGraficos() {
+  sectiones = document.querySelectorAll(".section");
+  sectiones.forEach((e) => {
+    cl(e.classList.add("none"));
+  });
+}
+function buscador(datos) {
+  graficarTodos(datos);
+
+  document.addEventListener("keyup", (e) => {
+    if (e.target.matches("#wp-block-search__input-5")) {
+      let arr = [];
+      datos.forEach((dato) => {
+        if (dato.nombre.toLowerCase().includes(e.target.value.toLowerCase())) {
+          arr.push(dato);
+        } else {
+          removerTodosLosGraficos();
+        }
+      });
+
+      graficarDeACuatro(arr);
+    }
+  });
+}
+function graficarTodos(datos) {
+  graficarDeACuatro(datos);
+}
+
+function graficarDeACuatro(arr) {
+  // cl(arr);
+  for (let i = 0; i < arr.length; i += 4) {
+    const grupo = arr.slice(i, i + 4);
+    graficarBuscador(grupo);
+  }
+}
+
+function graficarBuscador(grupo) {
+  const seccion = document.querySelector("body > seccion");
+  const section = document.createElement("SECTION");
+  section.classList.add("section");
+  const section2 = document.createElement("SECTION");
+  section2.classList.add("section2");
+
+  grupo.forEach((dato) => {
+    const enlace = document.createElement("A");
+    enlace.href = "/receta/?receta=" + dato.nombre;
+    enlace.classList.add("enlaceLoco");
+
+    const p = document.createElement("P");
+    p.classList.add("elementor-heading-title", "elementor-size-medium");
+    p.textContent = dato.nombre.toLowerCase();
+
+    const img = document.createElement("IMG");
+    img.classList.add("imagen-buscador");
+    img.setAttribute("width", "275");
+    img.setAttribute("height", "275");
+    if (dato.imagen == "") {
+      dato.imagen = "no";
+    }
+
+    const datoDeImagen = "img/" + dato.imagen + ".jpg";
+    img.src = datoDeImagen;
+
+    enlace.appendChild(img);
+    enlace.appendChild(p);
+
+    section2.appendChild(enlace);
+  });
+  section.appendChild(section2);
+  seccion.appendChild(section);
+}
