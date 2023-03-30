@@ -4,6 +4,26 @@
   display: flex;
   flex-direction: column;
 }
+body {
+  scroll-behavior: smooth;
+}
+.tuning {
+  padding-inline-start: 5px !important;
+  text-transform: capitalize;
+
+  font-family: "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.tuning > ul > li {
+  font-family: "Courier New", Courier, monospace;
+}
+::marker {
+  color: #d4a262;
+  border: 3px solid red;
+  height: 10px;
+}
+.zoom {
+  object-fit: contain !important;
+}
 .elementor-widget-text-editor.elementor-drop-cap-view-stacked
   .elementor-drop-cap {
   background-color: #818a91;
@@ -235,6 +255,7 @@ body
   display: block;
   color: #2c2c2c;
 }
+
 body
   > div
   > div:nth-child(3)
@@ -325,5 +346,32 @@ body > div > footer > div {
     > div.is-layout-constrained.wp-block-group.has-raft-bg-alt-background-color.has-background
     > p {
     font-size: 36px !important;
+  }
+  #title,
+  #titulo {
+    font-family: "Belleza", Sans-serif;
+    font-size: 29px;
+    font-weight: 500;
+    text-transform: none;
+  }
+  body
+    > div
+    > div:nth-child(3)
+    > div
+    > div
+    > section
+    > div
+    > div
+    > div
+    > div.elementor-element.elementor-element-7f79acd.elementor-align-center.elementor-widget.elementor-widget-button
+    > div
+    > div
+    > a {
+    width: 90%;
+    font-size: 11px;
+    overflow: hidden;
+  }
+  body > div > footer > div > div {
+    flex-direction: column;
   }
 }

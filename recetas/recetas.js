@@ -95,6 +95,10 @@ function graficarElemento(dato) {
     img.classList.add("attachment-large", "size-large", "wp-image-380");
     img.setAttribute("width", "819");
     img.setAttribute("height", "1024");
+    if (dt.imagen == "") {
+      dt.imagen = "no";
+      img.classList.add("zoom");
+    }
     const datoDeImagen = "../img/" + dt.imagen + ".jpg";
     cl(datoDeImagen);
     img.src = datoDeImagen;

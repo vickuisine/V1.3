@@ -54,16 +54,21 @@ function graficarElemento(dato) {
   const img2 = document.querySelector(
     "body > div > div:nth-child(3) > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-3b34dc5.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element.elementor-element-b2f657b > div > div > div > img"
   );
+  if (dato.imagen == "") {
+    dato.imagen = "no";
+    img.classList.add("zoom");
+  }
   const datoDeImagen = "../img/" + dato.imagen + ".jpg";
   img.src = datoDeImagen;
   img2.src = datoDeImagen;
 
   cl(dato);
   const listaM = document.createElement("UL");
-
+  listaM.classList.add("tuning");
   for (const key in dato.Ingredientes) {
     // ingredientes = [];
     lista = document.createElement("UL");
+    lista.classList.add("tuning", "tuning2");
     lista.textContent = key;
 
     if (typeof dato.Ingredientes[key] == "string") {

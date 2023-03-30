@@ -87,13 +87,15 @@ function graficarAislado(dato) {
   const img = document.querySelector(
     "body > div > div:nth-child(3) > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-e089fa6.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element.elementor-element-3a99bb2 > div > div > div > img"
   );
-
+  if (dato.imagen == "") {
+    dato.imagen = "no";
+  }
   const datoDeImagen = "img/" + dato.imagen + ".jpg";
   img.src = datoDeImagen;
   titular = document.querySelector(
     "body > div > div:nth-child(3) > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-e089fa6.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-66.elementor-top-column.elementor-element.elementor-element-3803200 > div > div.elementor-element.elementor-element-c9d77d5.elementor-widget.elementor-widget-heading > div > h2"
   );
-  titular.textContent = dato.nombre;
+  titular.textContent = dato.nombre.toLowerCase();
   const desc = document.querySelector(
     "body > div > div:nth-child(3) > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-e089fa6.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-66.elementor-top-column.elementor-element.elementor-element-3803200 > div > div.elementor-element.elementor-element-98195ff.elementor-widget.elementor-widget-heading > div > h4"
   );
@@ -131,6 +133,9 @@ function graficarColumnaRecientes(dato) {
   div3Img1.classList.add("elementor-widget-container");
   const img = document.createElement("IMG");
   img.classList.add("elementor-widget-container");
+  if (dato.imagen == "") {
+    dato.imagen = "no";
+  }
   const datoDeImagen = "../img/" + dato.imagen + ".jpg";
   img.src = datoDeImagen;
   img.setAttribute("width", 247);
@@ -146,7 +151,7 @@ function graficarColumnaRecientes(dato) {
   div3p1.classList.add("elementor-widget-container");
 
   const p = document.createElement("P");
-  p.textContent = dato.nombre;
+  p.textContent = dato.nombre.toLowerCase();
   p.classList.add("elementor-13");
 
   const enlace = document.createElement("A");
@@ -194,6 +199,9 @@ function graficarColumnaRecientes2(dato) {
   div3Img1.classList.add("elementor-widget-container");
   const img = document.createElement("IMG");
   img.classList.add("elementor-widget-container");
+  if (dato.imagen == "") {
+    dato.imagen = "no";
+  }
   const datoDeImagen = "../img/" + dato.imagen + ".jpg";
   img.src = datoDeImagen;
   img.setAttribute("width", 247);
@@ -209,7 +217,7 @@ function graficarColumnaRecientes2(dato) {
   div3p1.classList.add("elementor-widget-container");
 
   const p = document.createElement("P");
-  p.textContent = dato.nombre;
+  p.textContent = dato.nombre.toLowerCase();
   p.classList.add("elementor-13");
 
   const enlace = document.createElement("A");
@@ -258,6 +266,9 @@ function graficarPortada(dato) {
 
   const img = document.createElement("IMG");
   img.classList.add("attachment-large", "size-large", "wp-image-381");
+  if (dato.imagen == "") {
+    dato.imagen = "no";
+  }
   const datoDeImagen = "img/" + dato.imagen + ".jpg";
   img.src = datoDeImagen;
   img.setAttribute("width", 247);
@@ -277,7 +288,7 @@ function graficarPortada(dato) {
   body4_p1.classList.add("elementor-widget-container");
 
   const p = document.createElement("P");
-  p.textContent = dato.nombre;
+  p.textContent = dato.nombre.toLowerCase();
 
   section.appendChild(body1);
 
@@ -328,6 +339,9 @@ function graficarPopulares(dato) {
 
   const img = document.createElement("IMG");
   img.classList.add("attachment-large", "size-large", "wp-image-274");
+  if (dato.imagen == "") {
+    dato.imagen = "no";
+  }
   const datoDeImagen = "img/" + dato.imagen + ".jpg";
   img.src = datoDeImagen;
   // Graficar las primeras 3 fotos
@@ -344,7 +358,7 @@ function graficarPopulares(dato) {
 
   const p = document.createElement("P");
   p.classList.add("elementor-heading-title", "elementor-size-medium");
-  p.textContent = dato.nombre;
+  p.textContent = dato.nombre.toLowerCase();
 
   const enlace = document.createElement("A");
   enlace.href = "/receta/?receta=" + dato.nombre;
