@@ -379,6 +379,12 @@ body > div > footer > div {
   body > div > footer > div > div {
     flex-direction: column;
   }
+  .enlaceLoco {
+    width: 5rem !important;
+  }
+  .tituloGod {
+    font-size: 0.88rem;
+  }
 }
 .none {
   display: none !important;
@@ -413,6 +419,7 @@ body > div > footer > div {
   height: 100%;
   text-align: center;
   gap: 15px;
+  flex-wrap: wrap;
 }
 .section,
 .sectionP {
@@ -428,13 +435,30 @@ body > div > footer > div {
   justify-content: center;
   align-items: center;
 
-  width: 90%;
   margin: auto;
 }
 .sectionP {
+  padding: 18px;
   top: 0;
   padding-top: 0;
   z-index: 1200;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+  background: -moz-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
 .section2 {
   display: flex;
@@ -445,6 +469,9 @@ body > div > footer > div {
   justify-content: space-around;
   align-items: center;
   gap: 1rem;
+  background-color: #fff;
+  padding-top: 5%;
+  padding-bottom: 10%;
 }
 .imagen-buscador {
   object-fit: cover;
@@ -466,6 +493,7 @@ body > div > footer > div {
   text-align: center;
   margin: auto;
   color: #3127235c;
+  padding: 0.5rem;
 }
 #mainDiv
   > header

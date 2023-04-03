@@ -455,35 +455,19 @@
     "nombre": "Masa Madre",
     "tipo": "panaderia",
     "descripcion": "Les voy a enseñar a preparar una masa madre de forma sencilla y sin rodeos. Es importante que vean el video y también lean toda la información escrita para que realicen bien el proceso! Pueden anotar todo en un cuaderno si les resulta más práctico. Si es la primera vez que hacen masa madre y no les sale, es completamente NORMAL. El mundo de la panificación natural puede resultar complicado al principio, pero con el tiempo uno va entendiendo cómo funciona. El proceso dura 5 días.",
-    "imagen": "",
+    "imagen": "6",
     "Ingredientes": {
       "harina integral": "4 cucharadas",
       "agua": "cantidad necesaria"
     },
     "procedimiento": "1. Mezclar harina y agua hasta formar una pasta espesa. Tapar con una servilleta y una gomita elástica y dejar reposar 24 horas a temperatura ambiente.\n2. Agregar más agua y más harina. Tapar y dejar reposar 24 horas.\n3. Descartar la mitad de la masa (tirar o conservar en la heladera para hacer otra receta). Agregar más agua y más harina. Tapar y dejar reposar 24 horas.\n4. Repetir el procedimiento del 3er día.\n5. Descartar 3/4 de la masa. Agregar más agua y más harina. Esperar a que alcance su pico de actividad para utilizar (entre 6 - 10 hs) o conservar en la heladera tapado con una tapa.\nSiempre vamos a utilizar aproximadamente 4 cucharadas de harina. No es necesario usar más, con esa cantidad es suficiente para fermentarla. Si usamos demasiada, tendremos mucho descarte de masa. Es importante no cerrar herméticamente la masa madre durante el proceso. Si asegurarse de que no puedan ingresar insectos. Chequear el aroma del fermento los 5 días. Es normal que huela a pasado o a queso. Lo que no tiene que pasar es que huela a podrido. La masa va a subir depende la temperatura ambient..."
   },
-  {
-    "nombre": "CUADRADOS HÚMEDOS DE BANANA Y COCO",
-    "tipo": "postre",
-    "descripcion": "Estos cuadrados de banana y coco son dulces y frescos, ideales para una merienda de verano o como postre acompañados de helado de dulce de leche y nueces. ¡Una combinación perfecta para los amantes del coco y la banana! 😍",
-    "imagen": "21",
-    "Ingredientes": {
-      "huevos": "2 huevos de campo",
-      "azúcar": "150 g de azúcar (común o mascabo)",
-      "manteca": "100 g de manteca derretida",
-      "banana": "1 banana madura",
-      "coco rallado": "40 g de coco rallado + más para decorar",
-      "harina": "140 g de harina 0000",
-      "polvo de hornear": "3 g de polvo de hornear",
-      "sal": "Pizca de sal"
-    },
-    "procedimiento": "Precalentar el horno a 170 grados y colocar papel manteca en una fuente de 20 x 20 cm. Mezclar la manteca con el azúcar. Añadir los huevos, la banana hecha puré y el coco rallado. Luego agregar la harina, el polvo de hornear y la sal. Colocar la mezcla en la fuente y decorar con más coco rallado por encima. Hornear por 25 minutos. Una vez listo, retirar del horno y dejar enfriar."
-  },
+
   {
     "nombre": "CUADRADOS HÚMEDOS DE BANANA Y COCO",
     "tipo": "postre",
     "descripcion": "Estos cuadrados de banana y coco son dulces y frescos a la vez. Son ideales para disfrutar en una tarde de verano como merienda o como postre con una bola de helado de dulce de leche y nueces.",
-    "imagen": "",
+    "imagen": "21",
     "Ingredientes": {
       "huevos": "2 huevos de campo",
       "azúcar": "150 g de azúcar (puede ser común o mascabo)",
@@ -1171,5 +1155,661 @@
       }
     },
     "procedimiento": "Para la masa, mezclar la harina, el azúcar impalpable, la sal y la ralladura de limón. Agregar la manteca en trocitos y formar un arenado utilizando las yemas de nuestros dedos. Hacer este paso de manera rápida para no derretir la manteca con el calor corporal. Si se dispone de una batidora eléctrica utilizarla para realizar el arenado. Agregar las yemas y mezclar. Luego incorporar la harina sin amasar. Quedará una masa seca pero se debe evitar agregar líquido. Llevar a la mesada y presionar con la palma de la mano hasta formar una masa homogénea. Colocar la masa dentro de un papel film, estirarla de 1cm de grosor y llevar al freezer por 30 minutos. Una vez pasado el tiempo, cortar las tapas y colocarlas en una placa sin enmantecar. Llevarlas a la heladera por 5 minutos y luego hornear a 170 grados por 6-8 minutos. No deben dorarse. Para el relleno, batir la manteca junto con el azúcar impalpable, el jugo de limón, la leche en polvo y la sal hasta obtener una mezcla firme. Cuidar la cantidad de líquido. Para el armado, colocar el relleno en una manga pastelera y rellenar las tapas. Colocar los alfajores en el freezer 20 minutos antes de bañar para que no se escape el relleno."
+  },
+  {
+    "nombre": "TORTA INVERTIDA DE MANZANAS🍎",
+    "tipo": "reposteria",
+    "descripcion": "¡Guardá la receta de este clásico que nunca falla!😍 En esta ocasión hice esta maravilla en la sartén de 20cm de Essen👏🏽 Salió sabrosísima y súper HÚMEDA😍 Para conseguir la tuya solo tenés que hablarle a Vito de @unchef.essen 😎 Vamos que esta receta es suuuper fácil y es un golazo para el cafecito de la tarde!!!🤩",
+    "imagen": "56",
+    "Ingredientes": {
+      "Masa": {
+        "huevos": "2",
+        "azúcar": "1/3 taza de azúcar",
+        "aceite neutro": "1/3 taza de aceite neutro",
+        "leche": "1/3 taza de leche",
+        "harina leudante": "1 taza de harina leudante",
+        "canela": "1 cucharadita de canela",
+        "esencia de vainilla": "1 cucharadita de esencia de vainilla",
+        "sal": "pizca de sal",
+        "manzanas": "2 manzanas medianas"
+      },
+      "Caramelo": {
+        "azúcar": "1/3 taza de azúcar",
+        "manteca": "1 cucharadita de manteca"
+      }
+    },
+    "procedimiento": "Para el caramelo, colocar en la sartén el azúcar y esperar a que se disuelva por completo. Luego agregar la manteca y mezclar. Pelar las manzanas, cortarlas en gajos y colocarlas encima del caramelo. Para la masa, mezclar los huevos con el azúcar y la esencia de vainilla. Incorporar el aceite y luego al leche. Por último, añadir la harina, la canela y la sal. Colocar la mezcla encima de las manzanas y el caramelo y llevar a fuego corona por 40-50 minutos o hasta que al insertar un palillo esté salga limpio. Desmoldar en caliente."
+  },
+  {
+    "nombre": "PURURÚ CON CARAMELO SALADO o SALTED CARAMEL POPCORN🍿",
+    "tipo": "snack",
+    "descripcion": "Son ADICTIVOS!!🤪",
+    "imagen": "57",
+    "Ingredientes": {
+      "Pururú": {
+        "maiz pisingallo": "cantidad necesaria",
+        "aceite": "cantidad necesaria"
+      },
+      "Salsa": {
+        "azúcar": "1 taza",
+        "sal": "1 cucharadita",
+        "manteca": "30 g",
+        "bicarbonato de sodio": "1 cucharadita"
+      }
+    },
+    "procedimiento": "Para el pururú, cubrir la base de una olla con aceite y maíz pisingallo. Tapar y calentar a fuego medio hasta que se escuchen las primeras explosiones del maíz. Bajar el fuego y continuar cocinando hasta que se detengan las explosiones. Retirar del fuego y reservar. Para la salsa, en una olla a fuego medio, derretir la manteca junto con el azúcar y la sal, revolviendo constantemente. Una vez que la mezcla comience a dorarse, retirar del fuego y agregar el bicarbonato de sodio. La mezcla comenzará a espumar. Revolver rápidamente y verter sobre el pururú. Mezclar bien para que el caramelo cubra todo el pururú. Dejar enfriar y servir. ¡Etiquetá a tu amigo para que te haga esta ricurita!😍"
+  },
+  {
+    "nombre": "BIZCOCHUELO O GENOISE PASO A PASO🍰",
+    "tipo": "reposteria",
+    "descripcion": "En mi reel anterior les enseñé a calcular la cantidad de ingredientes para su bizcochuelo según el tamaño de su molde. Hoy les voy a mostrar cómo prepararlo paso a paso✅",
+    "imagen": "58",
+    "Ingredientes": {
+      "huevos": "6",
+      "azúcar": "180 g de azúcar",
+      "harina": "180 g de harina 0000",
+      "ralladura de limón": "Ralladura de 1 limón",
+      "sal": "1 pizca de sal"
+    },
+    "procedimiento": "Forrar la base de un molde con papel manteca y pincelarla con manteca. Mezclar los huevos junto con el azúcar y cocinar a baño María hasta disolver todos los gránulos de azúcar. En este punto precalentar el horno a 170 grados. Batir a velocidad media los huevos junto con la ralladura de limón. Una vez espumados batir a velocidad alta hasta alcanzar el “Punto Letra”. Pasar los huevos espumados a un bowl y agregarle la harina y la sal tamizadas. Hacer este paso en 3 veces realizando movimientos envolventes con una espátula. Pasar la mezcla al molde y hornear por 40 minutos o hasta que al insertar un cuchillo este salga limpio. Retirar del horno y enfriar completamente antes de cortar."
+  },
+
+  {
+    "nombre": "BOMBAS DE CREMA🍫",
+    "tipo": "panaderia",
+    "descripcion": "Es la receta de las bombas de crema que hacía mi abuela paterna🧡 Recuerdo hacerlas a su lado de chiquita, y cuando las compartíamos en familia, que delicia!! De sus comidas y postres nació en parte mi amor por la cocina, me dicen que salí a ella 😊. Todos esos sabores quedaron guardados en mi mente y la de mi familia y son la forma de tenerla presente siempre🦋",
+    "imagen": "59",
+    "Ingredientes": {
+      "Masa": {
+        "manteca": "200g",
+        "huevos": "4",
+        "agua": "1 taza",
+        "harina": "1 taza"
+      },
+      "Crema pastelera": {
+        "leche": "1 litro",
+        "azúcar": "250g",
+        "harina": "2 cucharadas colmadas",
+        "huevos": "6",
+        "esencia de vainilla": "c/n",
+        "chocolate": "2 barras"
+      }
+    },
+    "procedimiento": "MASA: Poner el agua con una pizca de sal al fuego. Agregar la manteca y derretir. Agregar la harina de una vez y revolver con cuchara de madera, mucho. Cocinar 10min en la hornalla hasta que se forme una masa homogénea revolviendo. Retirar del fuego, descansar 5min para entibiar y agregar los huevos de a uno, revolviendo entre cada uno. Enfriar y colocar en placa enmantecada (con cuchara o manga). Cocinar en horno fuerte 10min y luego secar bajando la temperatura por 10min más, hasta q se inflen y se doren un poquito.. que se noten cocidas y con hueco adentro. CREMA PASTELERA: Colocar el azúcar y la harina y mezclar bien. Agregar los huevos. Batir bien. Agregar la leche caliente y poner a fuego. Revolver con cuchara de madera hasta que hierva. Retirar y agregar la vainilla. Dividir la crema en dos partes y agregar el chocolate derretido a una de ellas. Rellenar las bombas con las cremas. "
+  },
+  {
+    "nombre": "FLAN CASERO🍮 al estilo francés (crème caramel)😍",
+    "tipo": "postre",
+    "descripcion": "La clave está en NO BATIR y evitar agregar aire a la mezcla para obtener un flan con una textura cremosa. Ahora la pregunta del millón👉🏽 El flan casero, ¿va con DULCE DE LECHE o CREMA BATIDA? Te leo en los comentarios!",
+    "imagen": "60",
+    "Ingredientes": {
+      "Caramelo": {
+        "azúcar": "100 g de azúcar"
+      },
+      "Flan": {
+        "leche entera": "700 g de leche entera",
+        "huevos": "7",
+        "azúcar": "175 g de azúcar",
+        "crema de leche": "80 g de crema de leche",
+        "esencia de vainilla": "1 cucharada de esencia de vainilla"
+      }
+    },
+    "procedimiento": "Caramelo: Colocar el azúcar de a cucharadas en una cacerola e ir agregando a medida que ésta se va fundiendo. Una vez que alcance un color dorado claro retirar del fuego y colocar en el molde. Tomar el molde con un repasador para no quemarse y esparcir el caramelo. Mucho cuidado en este paso. Flan: desligar suavemente los huevos con un batidor. Luego incorporar la leche, el azúcar, la esencia de vainilla y la crema. Mezclar bien sin batir. Pasar lentamente la mezcla por un tamiz dos veces. Colocar la mezcla en el molde una vez que el caramelo haya solidificado. Realizar unos pequeños golpes contra la mesada para sacar las burbujas de aire que hayan quedado en la mezcla. Tapar con papel aluminio y hornear a baño maria a 140 grados por 1 hora y 20 minutos o hasta que un palillo salga limpio. Una vez listo sacar del horno y dejar enfriar a temperatura ambiente por 1 hora. Luego refrigerar por 6 horas. A la hora de desmoldar, pasar la base del molde por el fuego de la hornalla para despegar el caramelo del mismo."
+  },
+  {
+    "nombre": "BUDÍN INTEGRAL DE LIMÓN Y YOGUR🍋🍶",
+    "tipo": "reposteria",
+    "descripcion": "Budín integral de limón y yogur, una receta deliciosa, húmeda y con un aroma a limón espectacular. Perfecta para cualquier momento del día. ¡Aquí te dejo la receta!👇🏽",
+    "imagen": "61",
+    "Ingredientes": {
+      "harina integral": "240 g de harina integral",
+      "yogur": "175 g de yogur natural",
+      "huevos": "3",
+      "aceite de girasol": "100 g de aceite de girasol",
+      "miel": "50 g de miel",
+      "agua": "50 g de agua",
+      "ralladura de limón": "Ralladura de 1 limón",
+      "polvo para hornear": "3 cucharaditas de polvo para hornear",
+      "esencia de vainilla": "1 cucharada de esencia de vainilla",
+      "sal": "1 g de sal"
+    },
+    "procedimiento": "Precalentar el horno a 170 grados y forrar una budinera con papel manteca. Batir los huevos junto a la miel, la ralladura de limón y la esencia de vainilla hasta alcanzar el punto letra. Agregar el aceite y emulsionar. Disolver el yogur con el agua y añadirlo a la preparación. Por último, añadir la harina integral, el polvo de hornear y la sal. Mezclar cuidadosamente para no eliminar el aire incorporado en el batido de los huevos. Colocar la mezcla en el molde y hornear por 45 minutos o hasta que al insertar un palillo este salga limpio."
+  },
+  {
+    "nombre": "COOKIES INTEGRALES CON CHOCOLATE🤎🍪",
+    "tipo": "panaderia",
+    "descripcion": "¡Las mejores cookies para pasar el frío!😍 Son livianas, súper crocantes y deliciosas😋 La receta original es de @levartenutricion. Le hice algunas modificaciones y quedaron buenísimas!!❤️ Si te gustó la receta te invito a darle me gusta, guardarla y a etiquetar a tus amigos en los comentarios😘",
+    "imagen": "62",
+    "Ingredientes": {
+      "Masa": {
+        "harina integral": "120 g de harina integral",
+        "avena instantanea": "100 g de avena instantanea",
+        "azúcar mascabo": "50 g de azúcar mascabo",
+        "aceite de girasol": "40 g de aceite de girasol",
+        "huevo": "1 huevo",
+        "bicarbonato de sodio": "1 cucharadita de bicarbonato de sodio",
+        "esencia de vainilla": "1 cucharadita de esencia de vainilla",
+        "sal": "1 g de sal"
+      },
+      "Relleno": {
+        "chocolate": "trozos de chocolate"
+      }
+    },
+    "procedimiento": "Precalentar el horno a 180 grados y forrar una placa con papel manteca. Cortar el chocolate en trozos pequeños. Batir el huevo junto con el azúcar y la esencia de vainilla. Agregar el aceite y emulsionar. Añadir la harina, la avena, el bicarbonato de sodio, la sal y los trozos de chocolate. Mezclar y formar una masa. Realizar pequeños bollos de 40 g, aplastarlos y colocarlos en la placa. Hornear por 10 minutos."
+  },
+  {
+    "nombre": "PANCITOS DE ORÉGANO🌿",
+    "tipo": "panaderia",
+    "descripcion": "¡Ideales para hacer sándwiches!😋 100% integrales, aptos para freezar y altos en fibra. Si te gustó la receta te invito a darle me gusta, guardarla y a etiquetar a tus amigos en los comentarios😘",
+    "imagen": "63",
+    "Ingredientes": {
+      "pan": {
+        "harina integral": "500 g de harina integral",
+        "agua tibia": "300 g de agua tibia",
+        "aceite": "50 g de aceite",
+        "sal": "10 g de sal",
+        "levadura seca": "3 g de levadura seca",
+        "orégano seco": "2 cucharadas de orégano seco",
+        "albahaca seca": "1 pizca de albahaca seca"
+      }
+    },
+    "procedimiento": "Realizar una corona de harina y en los bordes colocar la sal. En el medio poner el agua y la levadura. Unir todos los ingredientes. Agregar el aceite. Amasar por 5 minutos o hasta que nos quede una masa lisa. Colocar la masa en un bowl y cubrirla. Dejar que duplique su tamaño o puedes dejarla un día en la heladera para que se desarrollen aromas y sabores. Armamos bollitos de 40g. Colocarlos en una placa enmantecada y dejar que casi dupliquen su tamaño. Con un cuchillo afilado realizarles 2 cortes por encima y hornear a 190 grados por 15 minutos."
+  },
+  {
+    "nombre": "LEIKAJ 🍯",
+    "tipo": "postre",
+    "descripcion": "El leikaj o leicaj es una torta típica de la tradición judía que se come en septiembre cuando llegan dos fechas muy importantes: el año nuevo judío y el día del perdón. El leikaj es una torta a base de miel que parece un bizcochuelo y se come porque quiere decir que vamos a comenzar el año con dulzura. También se come en el día del perdón una vez que finaliza el ayuno que realizamos durante un día. El leikaj me hace acordar a mi abuela, que lo hacía en una budinera gigante para que lo comamos en familia. También se puede comer leikaj con mates, en la merienda, queda riquísimo!",
+    "imagen": "64",
+    "Ingredientes": {
+      "huevos": "3",
+      "azúcar": "1 taza",
+      "miel": "1 taza",
+      "aceite de girasol": "1 taza",
+      "soda": "1 taza",
+      "harina leudante": "3 tazas",
+      "polvo para hornear": "1 cucharada",
+      "bicarbonato de sodio": "1 cucharada",
+      "canela en polvo": "1 cucharadita"
+    },
+    "procedimiento": "Enmantecar y enharinar un savarin / molde para tortas / budinera de tamaño grande. Batir ligeramente los huevos con el azúcar. Agregar la miel y el bicarbonato. Añadir el aceite en forma de hilo y batir enérgicamente. Luego incorporar el vaso de soda. Por último, agregar la harina, el polvo de hornear, el bicarbonato y la canela. Colocar la mezcla en el molde hasta llenar 3/4 de su capacidad. Podés optar por hornear el bizcocho en un horno frío o caliente a temperatura media, durante aproximadamente 40 minutos. Desmoldar y dejar enfriar antes de servir."
+  },
+  {
+    "nombre": "TRENZA DE MIEL🍯💛",
+    "tipo": "panaderia",
+    "descripcion": "Suave, dulce y con una miga súper cremosa💛 Hoy te voy a enseñar cómo hacer esta deliciosa trenza de miel. ¿Alguna vez hiciste algún pan trenzado? ¡Son muy divertidos de hacer! Además quedan bellísimos🌼",
+    "imagen": "65",
+    "Ingredientes": {
+      "Trenza": {
+        "harina": "500 g de harina 000",
+        "agua": "200 g de agua",
+        "miel": "100 g de miel",
+        "manteca": "70 g de manteca",
+        "sal": "10 g de sal",
+        "levadura seca": "3 g de levadura seca"
+      }
+    },
+    "procedimiento": "Realizar una corona de harina y en los bordes colocar la sal. En los bordes de la corona colocar la sal. En el medio poner el agua, la levadura y la miel. Unir todos los ingredientes. Agregar la manteca pomada (la masa se desarmará pero se volverá a unir con el amasado. Se debe evitar agregar más harina en este punto). Amasar por 10 minutos o hasta que quede una masa lisa. Colocar la masa en un bowl y cubrirla. Dejar que duplique su tamaño. Si se deja la masa reposar de un día para el otro en la heladera, se desarrollarán más aromas y sabores. Una vez fermentada, tomar la masa y dividirla en tres partes. Bollar las partes y dejarlas reposar por 15 minutos. Luego darles forma de cilindro y trenzarlas. Fermentar la trenza hasta que duplique su tamaño. Hornear a 200 grados por 40 minutos en horno convencional o 20 minutos en horno convector."
+  },
+  {
+    "nombre": "TORTA HÚMEDA DE NARANJA🍊",
+    "tipo": "panaderia",
+    "descripcion": "Tenía muchísimas naranjas en mi cocina así que salió este invento para la merienda de esta tarde de Viernes✨ Pueden hacerla con otro cítrico como limón o mandarina si no tienen naranjas. Ahora si vamos con la receta de esta riquísima y jugosa tortita🧡👇🏽",
+    "imagen": "66",
+    "Ingredientes": {
+      "Húmedos": {
+        "huevos": "4",
+        "azúcar": "130 g de azúcar (yo utilice 40 g de azúcar blanco y 90 g de azúcar mascabo)",
+        "ralladura de naranja": "ralladura de 2 naranjas medianas",
+        "jugo de naranja": "150 g de jugo de naranja",
+        "queso crema": "100 g de queso crema",
+        "aceite de girasol": "150 g de aceite de girasol"
+      },
+      "Secos": {
+        "harina": "250 g de harina 0000",
+        "polvo para hornear": "15 g de polvo para hornear",
+        "sal": "2 g de sal",
+        "canela": "pizca de canela"
+      },
+      "Almibar": {
+        "azúcar": "100 g de azúcar",
+        "agua": "100 g de agua",
+        "piel de naranja": "piel de naranja"
+      },
+      "Glasé": {
+        "azúcar impalpable": "200 g de azúcar impalpable",
+        "agua": "agua c/n",
+        "jugo de limón": "gotas de jugo de limón"
+      }
+    },
+    "procedimiento": "Precalentar el horno a 170 grados. Por otro lado, enmantecar un molde de 24 cm y forrar la base con papel manteca. En un bowl, combinar los ingredientes húmedos. Integrar a los húmedos los ingredientes secos y mezclar hasta obtener una mezcla homogénea. No batir. Colocar la mezcla en el molde y hornear por 40 minutos o hasta que al insertar un palillo este salga casi limpio (el bizcocho es húmedo). Almibar: en una cacerola colocar el agua y por encima el azúcar y la piel de naranja. Cocinar hasta que todos los gránulos de azúcar desaparezcan. Una vez lista la torta, retirar del horno y dejar enfriar por 10 minutos. Pinchar la torta con un tenedor varias veces para que el almíbar penetre. Verter el almíbar caliente por encima de la torta. Dejar enfriar completamente. Glasé: mezclar el azúcar impalpable con agua y jugo de limón hasta obtener la consistencia deseada. Verter el glasé por encima de la torta. Listo para servir."
+  },
+  {
+    "nombre": "ÑOQUIS DE ESPINACA🥬",
+    "tipo": "salado",
+    "descripcion": "Una recetita salada no viene mal de vez en cuando, ¿no?\nHoy te voy a enseñar a hacer ñoquis de espinaca. Si, ya se, parecen difíciles de hacer pero te prometo que no es nada del otro mundo.\nLa receta es muy fácil y rápida. En 1 hora estás comiendo ¿Te animás?\nOtra cosa, yo soy muy de comer los ñoquis solo con crema y queso, me encanta sentir el sabor de la masa, pero contame vos en los comentarios con qué salsa acompañarías estos ñoquis de espinaca🙌🏽\nRinde 2 porciones.",
+    "imagen": "67",
+    "Ingredientes": {
+      "Papas": {
+        "papas": "400 g de papa cruda",
+        "sal": "1 cucharadita de sal"
+      },
+      "Masa": {
+        "harina": "300 g de harina 0000",
+        "huevo": "1",
+        "espinaca": "3 puñados de espinaca cruda",
+        "polvo para hornear": "1/2 cucharadita de polvo para hornear",
+        "nuez moscada": "condimentos: nuez moscada, pimienta blanca",
+        "pimienta blanca": "condimentos: nuez moscada, pimienta blanca",
+        "queso duro rallado": "50 g de queso duro rallado (opcional)"
+      },
+      "Salsa": {
+        "crema de leche": "salsa: crema de leche",
+        "queso duro o semiduro": "salsa: un buen queso duro o semiduro (yo utilicé una combinación de Pategrás y Parmesano)"
+      }
+    },
+    "procedimiento": "A partir de agua hirviendo, cocinar las papas enteras y con piel. Una vez listas, retirarles la cáscara (o no) y pisarlas, realizando un puré seco. Enfriar por completo antes de usar.\nEspinaca: cubrir la base de una olla con agua y dejar que hierva. Luego colocar la espinaca y tapar la olla. Esto creará un efecto de cocción al vapor. Cocinar por 5 minutos y retirar del fuego. Picar la espinaca y enfriar por completo.\nEn la mesada formar una corona con la harina y en el centro agregar el puré de papas, la espinaca, el huevo, la sal, el polvo para hornear, la nuez moscada y la pimienta blanca. Mezclar todo hasta obtener una masa homogénea. Si es necesario, incorporar un poco más de harina.\nDividir la masa en varias porciones y estirar cada una hasta formar un cilindro de aproximadamente 2 cm de diámetro. Cortar en trozos de 2 cm y presionar con un tenedor para darles forma.\nCocinar los ñoquis en una olla con agua hirviendo y sal. Retirarlos cuando floten. Escurrirlos y mezclar"
+  },
+  {
+    "nombre": "MUFFINS DE CACAO Y BANANA INTEGRALES🍌🍫",
+    "tipo": "panaderia",
+    "descripcion": "Estos muffins son una opción saludable y deliciosa para disfrutar como merienda. Son ideales para preparar en cantidad y guardar para consumir cuando quieras. Además, se pueden acompañar con una fruta y un café con leche para completar una merienda balanceada.",
+    "imagen": "68",
+    "Ingredientes": {
+      "Humedos": {
+        "Puré de banana": "300 g",
+        "Huevos": "4",
+        "Azúcar mascabo": "160 g",
+        "Aceite": "60 g",
+        "Crema de leche": "40 g",
+        "Agua hirviendo": "70 g"
+      },
+      "Secos": {
+        "Harina integral": "300 g",
+        "Polvo de hornear": "25 g",
+        "Sal": "1/2 cucharadita",
+        "Cacao amargo": "30 g"
+      }
+    },
+    "procedimiento": "Precalentar el horno a 200 grados y preparar moldes para muffin. En un bowl, combinar los ingredientes húmedos: puré de banana, huevos, azúcar mascabo, aceite, crema de leche y agua hirviendo. Integrar a los húmedos los ingredientes secos: harina integral, polvo de hornear, sal y cacao amargo. Mezclar hasta obtener una mezcla homogénea, sin batir. Colocar la mezcla en los moldes para muffin y decorar con dos finas rodajas de banana. Hornear por 17 minutos o hasta que al insertar un cuchillo este salga limpio. Servir y disfrutar."
+  },
+  {
+    "nombre": "BUDÍN DE ZAPALLO🧡 RECETA OTOÑAL🍂",
+    "tipo": "postre",
+    "descripcion": "¿Quién dijo que no se puede poner zapallo en un budín o torta? 🤤 Amooo completamente las preparaciones dulces con verduras! Son sanas y nos ofrecen sabores y texturas distintas. Ni hablar de lo ricas que son😍 Animense a jugaaaar!! No todo es dulce de leche y chocolate👩🏽‍🍳 Contame en los comentarios si probarías esta delicia😱😍 En mi casa está APROBADÍSIMA👏🏽👏🏽 ‼️No olvides dejar tu me gusta y tu comentario para que Instagram te siga mostrando mis recetas🤩",
+    "imagen": "69",
+    "Ingredientes": {
+      "Húmedos": {
+        "zapallo": "425gr de puré de zapallo",
+        "buttermilk": "250gr de BUTTERMILK (250gr de leche + 20ml de jugo de limón)",
+        "huevos": "2",
+        "aceite": "100ml de aceite de girasol",
+        "azúcar blanca": "100gr de azúcar blanca",
+        "azúcar mascabo": "100gr de azúcar mascabo",
+        "esencia de vainilla": "1 cucharadita de esencia de vainilla"
+      },
+      "Secos": {
+        "harina": "300gr de harina 000",
+        "polvo para hornear": "1 cucharadita de polvo para hornear",
+        "bicarbonato de sodio": "1 cucharadita de bicarbonato de sodio",
+        "canela": "1/2 cucharadita de canela",
+        "sal": "1/2 cucharadita de sal",
+        "nuez moscada": "1 pizca de nuez moscada"
+      },
+      "Decoración": "frutos secos"
+    },
+    "procedimiento": "PURÉ DE ZAPALLO: cubrir un zapallo con aluminio y hornearlo a temperatura máxima hasta que esté tierno. Luego hacer un puré con la pulpa. Precalentar el horno a 170 grados y enmantecar y enharinar una budinera grande. Por otro lado, mezclar los huevos con los azúcares y la esencia de vainilla. Luego añadir la buttermilk y el puré de zapallo. Incorporar los ingredientes secos previamente tamizados y mezclar bien. Verter la preparación en la budinera y decorar con frutos secos. Llevar al horno por 45-50 minutos o hasta que el budín esté dorado y al insertar un palillo en el centro, este salga limpio. Dejar enfriar antes de servir."
+  },
+  {
+    "nombre": "EL CAFÉ MÁS ESPUMOSO DE TU VIDA🤎",
+    "tipo": "bebida",
+    "descripcion": "Prepara en casa el café más espumoso y delicioso que hayas probado🤤 Perfecto para esos días en los que necesitas un boost de energía y un momento de relajación✨",
+    "imagen": "70",
+    "Ingredientes": {
+      "Café": {
+        "café instantáneo": "1 cucharada de café instantáneo",
+        "azúcar": "1/2 cucharada de azúcar (podés ajustar la cantidad a tu nivel de dulzura)",
+        "agua": "1 cucharada de agua"
+      }
+    },
+    "procedimiento": "En un tazón pequeño, mezclar el café instantáneo, el azúcar y el agua. Batir vigorosamente con un batidor eléctrico o manual durante unos 2-3 minutos hasta que la mezcla se vuelva espumosa y de color marrón claro. Puede tardar un poco más si lo haces a mano. Una vez que la mezcla esté lista, verterla en una taza con leche caliente o agua caliente, según tu preferencia. ¡Disfrutar!"
+  },
+  {
+    "nombre": "CHIPÁ💛",
+    "tipo": "panaderia",
+    "descripcion": "Receta de @ponganlamesa 🧑🏻‍🍳. Los chipá son muy fáciles de hacer, no hay que amasar ni dejar reposar la masa. En esta receta se utiliza una combinación de quesos cremosos y duros para lograr un sabor delicioso. Perfectos para acompañar con unos mates!",
+    "imagen": "71",
+    "Ingredientes": {
+      "Chipá": {
+        "fécula de mandioca": "500 g de fécula de mandioca",
+        "huevos": "2",
+        "manteca": "100 g de manteca",
+        "queso sardo rallado": "200 g de queso sardo rallado",
+        "muzzarella en cubitos": "200 g de muzzarella en cubitos",
+        "leche": "Leche c/n",
+        "sal": "1/2 cucharada de sal"
+      }
+    },
+    "procedimiento": "Mezclar la fécula, la manteca, la sal y los huevos. Luego agregar los quesos. Por último, añadir la leche de a poco hasta formar una masa blanda pero no pegajosa. Formar pequeñas bolitas y colocarlas en una placa de horno. Hornear a 200 grados por 15-20 minutos."
+  },
+  {
+    "nombre": "ALFAJORES DE NUEZ SIN TACC🥜😍‼️",
+    "tipo": "panaderia",
+    "descripcion": "Seguimos con el maratón de recetas SIN GLUTEN de la mano de @quieronueces !😍 Hoy te voy a enseñar cómo hacer estos increíbles alfajores de nuez sin gluten. Son perfectos para disfrutar del té con amigos o para hacer sobremesa con un cafecito. Antes de pasar a la receta te invito a entrar al perfil de @quieronueces para enterarte de sus productos y promociones🙌🏽🥳",
+    "imagen": "72",
+    "Ingredientes": {
+      "Masa": {
+        "almidon de maiz": "250 g de almidón de maíz",
+        "nueces": "100 g de nueces finamente trituradas @quieronueces",
+        "manteca": "100 g de manteca pomada",
+        "azúcar": "100 g de azúcar",
+        "huevo": "1",
+        "esencia de vainilla": "1 cucharadita de esencia de vainilla",
+        "polvo para hornear": "15 g de polvo para hornear",
+        "dulce de leche": "500 g de dulce de leche repostero",
+        "decoracion": "chocolate negro o blanco + nueces trituradas",
+        "ralladura de limón": "opcional: ralladura de limón"
+      }
+    },
+    "procedimiento": "Batir la manteca pomada con el azúcar, la esencia de vainilla y la ralladura de limón hasta obtener una crema blanca. Agregar el huevo y emulsionar. Añadir el almidón de maíz, las nueces trituradas y el polvo para hornear. Mezclar hasta formar una masa. En la mesada estirar la masa y cortar las tapas con un cortador de galletas. Colocar las tapas en una placa de horno. Hornear a 200 grados por 6-8 minutos. Retirar las tapas del horno y dejar enfriar. Rellenar con dulce de leche."
+  },
+  {
+    "nombre": "MARQUISE DE NUEZ🥜 SIN TACC‼️😍",
+    "tipo": "postre",
+    "descripcion": "Marquise de nuez es una opción de postre distinta, deliciosa y sin gluten que puedes hacer de forma casera en tu casa. Las nueces que utilicé son de @quieronueces. ¡Son riquísimas! Vayan a chequear su página para ver las distintas variedades de nueces que ofrecen.",
+    "imagen": "73",
+    "Ingredientes": {
+      "Masa": {
+        "claras": "5",
+        "azúcar": "200 g de azúcar",
+        "nueces": "200 g de nueces finamente trituradas de @quieronueces"
+      },
+      "Relleno": {
+        "dulce de leche": "400 g de dulce de leche repostero"
+      },
+      "Crema batida": {
+        "crema": "200 ml de crema",
+        "azúcar": "10 g de azúcar"
+      },
+      "Merengue suizo": {
+        "claras": "3",
+        "azúcar": "el doble de su peso en azúcar",
+        "jugo de limón": "gotas de jugo de limón"
+      }
+    },
+    "procedimiento": "Precalentar el horno a 150 grados y forrar un molde de 24cm con papel manteca. Para la masa, batir las claras junto con el azúcar hasta conseguir un merengue firme. Luego, agregar las nueces finamente trituradas con una espátula realizando movimientos envolventes. Pasar la mezcla al molde y hornear por 45 minutos. Una vez listo, dejar enfriar por completo antes de desmoldar. Para la crema batida, batir la crema con el azúcar hasta que esté firme. Para el merengue suizo, cocinar las claras junto con el azúcar a baño María hasta que todos los gránulos de azúcar se hayan disuelto. Luego, agregar las gotas de jugo de limón y batir hasta obtener un merengue firme. Finalmente, armar la marquise colocando capas de masa, dulce de leche y crema batida en un molde y refrigerar durante unas horas. Servir frío y disfrutar."
+  },
+  {
+    "nombre": "ROSCA DE PASCUA CASERA🤤",
+    "tipo": "panaderia",
+    "descripcion": "Hoy te voy a regalar mi receta de rosca de pascua para que la compartas con tu familia en esta Semana Santa🥰",
+    "imagen": "74",
+    "Ingredientes": {
+      "Masa": {
+        "harina": "1 kg de harina 000",
+        "levadura": "5 g de levadura seca o 15 g de levadura fresca",
+        "huevos": "4",
+        "leche": "200ml de leche",
+        "ralladura de naranja": "ralladura de 1 naranja",
+        "ralladura de limón": "ralladura de 1 limón",
+        "manteca": "200 g de manteca",
+        "azúcar": "200 g de azúcar",
+        "sal": "10 g de sal"
+      },
+      "Crema pastelera de panadería": {
+        "leche": "500 g de leche",
+        "azúcar": "150 g de azúcar",
+        "huevos": "3",
+        "harina": "25 g de harina",
+        "almidón de maiz": "25 g de almidón de maiz",
+        "esencia de vainilla": "esencia de vainilla"
+      }
+    },
+    "procedimiento": "Realizar una corona de harina y colocar la sal sobre los bordes. En el centro colocar los huevos, el azúcar, la leche, la levadura y las ralladuras. Mezclar hasta obtener una masa. Luego agregar la manteca pomada y amasar por 10 minutos. Colocar la masa en un bowl y taparla con papel film o con una bolsa de plástico. Dejar fermentar en la heladera hasta el día siguiente o al menos 20hs. Luego, dividir la masa en tres partes iguales y formar las roscas. Colocarlas en moldes previamente enmantecados y enharinados. Dejar leudar en lugar cálido durante 10 horas aproximadamente. Luego, retirar los moldes y hornear las roscas a 180°C durante 30-35 minutos. Para la crema pastelera, calentar la leche con la esencia de vainilla en una cacerola. Aparte, mezclar en un bowl los huevos, el azúcar, la harina y el almidón de maiz. Agregar la leche caliente y mezclar. Volver todo a la cacerola y cocinar a fuego bajo revolviendo constantemente hasta que espese. Dejar enfriar y rellenar la rosca a gusto."
+  },
+  {
+    "nombre": "CRIOLLITOS INTEGRALES🧉🤤 LOS MÁS RICOS DEL 🌎❤️",
+    "tipo": "panaderia",
+    "descripcion": "Estos criollitos son EXQUISITOS❤️ Quedan muy bien con queso crema, dulce de leche, mermelada, manteca o solos! Contame en los comentarios con qué bebida los acompañarías ¿Unos mates? ¿Un cafecito? Te leo!!",
+    "imagen": "75",
+    "Ingredientes": {
+      "Masa": {
+        "harina integral": "500 g de harina integral",
+        "agua": "200 g de agua",
+        "grasa": "100 g de grasa (o manteca) a punto pomada",
+        "sal": "10 g de sal",
+        "levadura seca": "5 g de levadura seca"
+      },
+      "Empaste": {
+        "grasa o manteca": "grasa o manteca a punto pomada"
+      }
+    },
+    "procedimiento": "En un bowl realizar una corona de harina y en los bordes colocar la sal. En el medio poner la mitad del agua y la levadura. Unir todos los ingredientes. Ir agregando agua hasta obtener una masa neutra (ni muy blanda ni muy dura). No agregar toda el agua de golpe porque puede quedar muy pegajosa y habrá que añadir más harina. Si la masa queda muy seca, agregar más agua. Incorporar la grasa (la masa se desarmará pero se volverá a unir con el amasado. Se debe evitar agregar más harina en este punto) Amasar por 5 minutos o hasta que quede una masa lisa. Colocar la masa en un bowl y cubrirla. Llevarla a la heladera y dejarla descansar hasta el día siguiente. Esto permitirá que se desarrollen más aromas y sabores en el pan. Al día siguiente, tomar la masa y estirarla de forma rectangular sobre una mesada enharinada. Pincelar el rectángulo con la materia grasa. Hacer 1 vuelta simple y estirar la masa. Luego pintar nuevamente con la materia grasa."
+  },
+  {
+    "nombre": "TOCINO DEL CIELO. RIQUÍSIMO POSTRE ESPAÑOL😋",
+    "tipo": "postre",
+    "descripcion": "El tocino del cielo es un postre español muy popular que se caracteriza por ser compacto, cremoso y muy empalagoso. Se elabora con yemas de huevo, almíbar y caramelo. Esta deliciosa receta es ideal para sorprender a tus invitados con algo nuevo y diferente. ¡Anímate a probarla!",
+    "imagen": "76",
+    "Ingredientes": {
+      "yemas": "7",
+      "Almíbar": {
+        "azúcar": "200 g de azúcar",
+        "agua": "200 g de agua"
+      },
+      "Caramelo": {
+        "azúcar": "100 g de azúcar"
+      },
+      "sal": "pizca de sal"
+    },
+    "procedimiento": "Precalentar el horno a 160 grados. Para el almíbar, en una olla colocar el agua y el azúcar. Cocinar sin mezclar hasta que se disuelvan los gránulos de azúcar. En un bowl, mezclar las yemas con el almíbar y una pizca de sal. Para el caramelo, en una sartén fundir el azúcar y dejar que tome color acaramelado. Colocar el caramelo en un molde y esparcirlo con cuidado. Dejar que endurezca. Verter la mezcla de yemas por encima del caramelo. Colocar el molde dentro de una bandeja apta para horno para realizar una cocción a baño María. Llenar la bandeja con agua hasta la mitad de la mezcla. Hornear por 50 minutos aproximadamente. Dejar enfriar y desmoldar."
+  },
+  {
+    "nombre": "CRUMBLE DE PERAS🍂🍐",
+    "tipo": "postre",
+    "descripcion": "Se viene la estación más linda de todas!😍🤎 Es por eso que hoy te quiero compartir la receta de este postre o merienda riquísima. Es simple, rápida e ideal para disfrutarla en una fresca tarde de las que se vienen🍂 ¿Cuál es tu estación del año favorita! Te leo en los comentarios!!❤️",
+    "imagen": "77",
+    "Ingredientes": {
+      "peras": "4 peras maduras (puede ser otra fruta como manzanas, ciruelas, duraznos, frutos rojos, etc)",
+      "Crumble": {
+        "harina": "40 g de harina",
+        "azúcar": "30 g de azúcar",
+        "manteca": "30 g de manteca",
+        "sal": "1/4 cucharadita de sal",
+        "canela": "Opcional: 1/2 cucharadita de canela"
+      }
+    },
+    "procedimiento": "Precalentar el horno a 200 grados. Cortar las peras en cubos. Para el Crumble, en un bowl colocar la harina, el azúcar, la manteca fría y la sal y mezclar rápidamente con los dedos formando un arenado. Colocar las peras en una fuente y el crumble por encima. Hornear por 30 minutos o hasta que el crumble se dore. Servir caliente o tibio con crema batida o helado."
+  },
+  {
+    "nombre": "PAN CON SEMILLAS ACTIVADAS🤎",
+    "tipo": "panaderia",
+    "descripcion": "¿Sabías que si no activamos las semillas nuestro cuerpo NO puede asimilar sus nutrientes?😨\n\n👉🏽¡Guardá esta info para no perderla!\n\nLas semillas tienen barreras químicas que dificultan la absorción de sus nutrientes en nuestro organismo. Cuando hablamos de activarlas, nos referimos a reducir y/o eliminar estas barreras para que nos sea más fácil digerirlas y aprovechar todos sus beneficios.\n\nHoy te voy a enseñar cómo activar semillas y a hacer un pan super mega delicioso y nutritivo con ellas😋\n\n‼️No olvides dejar tu me gusta y tu comentario para que Instagram te siga mostrando mis recetas🤩",
+    "imagen": "78",
+    "Ingredientes": {
+      "Harina": "500 g de harina 000",
+      "Agua": "200 g de agua",
+      "Aceite": "50 g de aceite de girasol",
+      "Semillas": {
+        "activar": "40 g de mix de semillas + 120 g para activarlas",
+        "tipo": "semillas mixtas"
+      },
+      "Levadura": "3 g de levadura seca",
+      "Sal": "10 g de sal"
+    },
+    "procedimiento": "Mezclar las semillas con el agua. Guardar en la heladera y dejar que se hidraten durante toda la noche o por 8-10hs\n\nAl día siguiente, en un bowl realizar una corona de harina y en los bordes colocar la sal. En el medio poner la mitad del agua, la levadura y las semillas activadas\n\nUnir todos los ingredientes. Ir agregando agua hasta obtener una masa blanda. No agregar toda el agua de golpe porque puede quedar muy pegajosa y habrá que añadir más harina\n\nIncorporar el aceite (la masa se desarmará pero se volverá a unir con el amasado. Se debe evitar agregar más harina en este punto) Amasar por 10 minutos o hasta que quede una masa lisa.\n\nColocar la masa en un bowl y cubrirla. Llevarla a la heladera y dejarla descansar hasta el día siguiente. Esto permitirá que se desarrolle el sabor y la masa tenga más cuerpo\n\nPrecalentar el horno a 220°C. Enharinar la mesa de trabajo y sacar la masa de la heladera. Amasar un poco para quitar el gas y darle forma. Colocar la masa en una fuente para horno y hacerle unos cortes en la superficie\n\nLlevar al horno y cocinar durante 35-40 minutos, o hasta que se vea dorado. Retirar del horno y dejar enfriar antes de cortar y servir."
+  },
+  {
+    "nombre": "BUDÍN DE BANANA CROCANTE🍌💥",
+    "tipo": "reposteria",
+    "descripcion": "¡Un budín de banana DISTINTO!😍 MUY HÚMEDO, FÁCIL DE HACER y DELICIOSO. Guardá la receta para no perderla!",
+    "imagen": "79",
+    "Ingredientes": {
+      "Bananas": "3 bananas grandes",
+      "Harina": "280 g de harina 0000",
+      "Buttermilk": "125 ml de buttermilk (125ml de leche + 1 cucharada de jugo de limón)",
+      "Manteca": "110 g de manteca pomada",
+      "Azúcar": "100 g de azúcar",
+      "Azúcar mascabo": "80 g de azúcar mascabo",
+      "Huevos": "2 huevos",
+      "Polvo para hornear": "1 cucharadita de polvo para hornear",
+      "Bicarbonato de sodio": "1 cucharadita de bicarbonato de sodio",
+      "Esencia de vainilla": "1 cucharadita de esencia de vainilla",
+      "Sal": "1/2 cucharadita de sal",
+      "Canela": "1 cucharadita de canela o ralladura de limón (opcional)",
+      "Crumble": {
+        "Harina": "40 g de harina",
+        "Azúcar": "30 g de azúcar",
+        "Manteca": "30 g de manteca fría",
+        "Sal": "1/4 cucharadita de sal",
+        "Canela": "1/2 cucharadita de canela (opcional)"
+      }
+    },
+    "procedimiento": "Precalentar el horno a 170 grados y enmantecar y enharinar un molde grande de budín. Realizar un puré con las bananas y reservar. Batir la manteca pomada junto con los azúcares y la esencia de vainilla. Luego emulsionar con los huevos. Agregar el puré de banana y la buttermilk. Por último añadir la harina, el polvo de hornear, el bicarbonato de sodio y la sal sin batir. Opcionalmente se puede agregar canela o ralladura de limón. Para hacer el crumble, mezclar todos los ingredientes con los dedos hasta obtener una textura arenosa. Verter la mezcla de budín en el molde y esparcir el crumble por encima. Hornear durante 50-60 minutos o hasta que al insertar un palillo en el centro del budín, este salga limpio. Dejar enfriar antes de desmoldar. ¡Listo para disfrutar!"
+  },
+  {
+    "nombre": "CAFÉ CON DULCE DE LECHE😍",
+    "tipo": "bebida",
+    "descripcion": "Miren esta idea de bebida con café Brasil @arducafe 😍 Es genial para darle un twist al café con leche que tanto nos gusta!! Recuerden que junto a @biotienda.cba estamos sorteando 1KG DE CAFÉ TOSTADO ARTESANAL ARDU😍 El sorteo termina mañana así que no se duerman! ¿Con qué acompañarías este café? Déjame tu comentario!!🙌🏽💛",
+    "imagen": "80",
+    "Ingredientes": {
+      "Café": {
+        "café Brasil": "1 taza",
+        "leche": "1 taza",
+        "dulce de leche": "2 cucharadas"
+      }
+    },
+    "procedimiento": "Preparar una taza de café Brasil. Calentar una taza de leche en una olla a fuego medio-bajo. Una vez que esté caliente, agregar el dulce de leche y mezclar hasta que se disuelva. Verter la mezcla de leche con dulce de leche en la taza de café. Servir caliente y disfrutar."
+  },
+  {
+    "nombre": "COPAS DE BANANA, DULCE DE LECHE Y CREMA CON BUDÍN “RECICLADO”♻️",
+    "tipo": "postre",
+    "descripcion": "Idea FÁCIL y RÁPIDA para usar ese budín o torta que tenés guardada❤️ ¡Estas copas son riquísimas! Con una combinación de budín de vainilla, dulce de leche, banana, crema batida y salsa de dulce de leche, son el postre perfecto para cualquier ocasión.🍨",
+    "imagen": "80",
+    "Ingredientes": {
+      "Budín": {
+        "budín de vainilla": "1 unidad",
+        "leche": "para humedecer el budín"
+      },
+      "Capas": {
+        "dulce de leche": "al gusto",
+        "banana": "2 unidades, cortadas en cubos",
+        "crema batida": "al gusto",
+        "salsa de dulce de leche": "1 cucharada de dulce de leche + 1 chorrito de leche"
+      }
+    },
+    "procedimiento": "Cortar el budín en pequeños cubos y humedecerlos con leche. En un recipiente, colocar una capa de budín, una capa de dulce de leche, una capa de banana en cubos y una capa de crema batida. Repetir las capas hasta llenar las copas. Para la salsa de dulce de leche, mezclar una cucharada de dulce de leche con un chorrito de leche y decorar las copas con la salsa por encima. Refrigerar durante al menos 30 minutos antes de servir. ¡Disfrutá tus copas de banana, dulce de leche y crema con budín “reciclado”!🍌🍮🍯🥛"
+  },
+  {
+    "nombre": "ALFAJORCITOS DE MAICENA💛🤩",
+    "tipo": "panaderia",
+    "descripcion": "Dicen que los clásicos nunca mueren, ¿no?\n\nHoy de la mano de @lagalletitasweet te regalamos la receta de estos exquisitos alfajorcitos de maicena❤️ Son excelentes para acompañar el mate o para agasajar a alguien a la hora del té💛\n\nSi todavía no conocés la cuenta de Galle, entrá a su perfil y fijate todas las recetas dulces y saludables que tiene😍 No dejes de seguirla para no perderte ninguna de sus exquisiteces☺️\n\n✅Para hacer una versión SIN TACC, reemplazá la harina por almidón de maíz\n\n‼️No olvides dejar tu me gusta y tu comentario para que Instagram te siga mostrando mis recetas🤩\n\nAhora si, ¡vamos con la receta!👇🏽",
+    "imagen": "81",
+    "Ingredientes": {
+      "Masa": {
+        "almidón de maíz": "300 g de almidón de maíz (maicena)",
+        "harina": "150 g de harina 0000",
+        "manteca pomada": "100 g de manteca pomada",
+        "azúcar impalpable": "100 g de azúcar impalpable",
+        "huevo": "1",
+        "yema": "1",
+        "polvo para hornear": "1 cucharadita de polvo para hornear",
+        "esencia de vainilla": "1 cucharadita de esencia de vainilla",
+        "ralladura de limón": "Opcional: ralladura de limón",
+        "sal": "una pizca de sal"
+      },
+      "Relleno y decoración": {
+        "dulce de leche repostero": "300 g de dulce de leche repostero",
+        "Coco rallado": "c/n"
+      }
+    },
+    "procedimiento": "Batir la manteca junto con el azúcar, la esencia de vainilla y la ralladura de limón. Agregar el huevo y la yema y batir hasta emulsionar. Por último añadir la harina, el almidón de maíz, el polvo para hornear y la pizca de sal. Formar una masa y dejar descansar en la heladera por 30 minutos. Estirar la masa sobre una superficie enharinada y cortar las tapas del alfajor. Llevar al horno a 170°C durante 10-12 minutos o hasta que estén dorados. Dejar enfriar. Colocar dulce de leche en una tapa y cubrir con otra, unir bien los bordes. Pasar los bordes por coco rallado. Dejar reposar los alfajores antes de servir."
+  },
+  {
+    "nombre": "PIONONO DE 🍌 Y DULCE DE LECHE🍯",
+    "tipo": "postre",
+    "descripcion": "Un postre argentino clásico, fácil de hacer y delicioso. Perfecto para cualquier ocasión. Con el dulce de leche como protagonista y el toque fresco de la banana, este pionono es irresistible.",
+    "imagen": "82",
+    "Ingredientes": {
+      "Masa": {
+        "pionono dulce": "1",
+        "dulce de leche repostero": "400g",
+        "bananas": "1 1/2",
+        "chocolate": "100g"
+      },
+      "Decoración": {
+        "coco rallado": "al gusto",
+        "hojas de menta fresca": "al gusto"
+      }
+    },
+    "procedimiento": "Abrir el pionono y desenrollarlo. Esparcir sobre este el dulce de leche con una cuchara o espátula. Tomar las bananas y cortar las puntas. Colocarlas en un extremo del pionono por encima del dulce de leche. Luego enrollar el pionono. Por otro lado, derretir el chocolate en el microondas en intervalos de 30 segundos para no quemarlo. Una vez derretido, cubrir el pionono con el chocolate. Decorar con coco rallado y hojas de menta. Refrigerar por, al menos, 6 horas para que la masa del pionono se humedezca con el dulce de leche. Servir frío."
+  },
+  {
+    "nombre": "GALLETAS CASERAS DEL MUNDO!😍",
+    "tipo": "panaderia",
+    "descripcion": "Estas galletas caseras son ideales para disfrutar en cualquier momento del día. Son económicas y fáciles de hacer, listas en solo 25 minutos. ¡No volverás a comprar más galletitas para la merienda!",
+    "imagen": "83",
+    "Ingredientes": {
+      "Galletas": {
+        "harina": "3 tazas de harina 000",
+        "azúcar": "1 1/2 taza de azúcar",
+        "aceite": "3/4 taza de aceite neutro",
+        "huevos": "3 huevos",
+        "polvo para hornear": "3 cucharadas de polvo para hornear",
+        "esencia de vainilla": "3 cucharadas de esencia de vainilla"
+      }
+    },
+    "procedimiento": "En un bowl, mezclar todos los ingredientes de las galletas hasta obtener una masa homogénea. Dejar reposar la masa durante 2 minutos para que la harina absorba toda la humedad. Formar bolitas pequeñas con la masa y colocarlas en una placa de horno. Hornear a 200 grados Celsius durante 15 minutos. Sacar del horno y dejar enfriar para que tomen consistencia."
+  },
+  {
+    "nombre": "CREMA PASTELERA DE PANADERÍA🍰",
+    "tipo": "panaderia",
+    "descripcion": "Hoy te traigo la receta de una de las preparaciones MÁS IMPORTANTES en la panadería y la pastelería: la crema pastelera. Esta vez te voy a dar la versión para panadería. Esta es más CONSISTENTE y resulta apta para darle una doble cocción en el horno. Un ejemplo de esto puede ser cuando horneamos facturas junto con la crema pastelera o la mismísima rosca de pascua. Ahora si, antes de darte la receta me veo obligada a advertirte que esta crema es tan deliciosa que posiblemente quieras comértela a cucharadas😋 ¡Si te gustan mis recetas guarda este post y no olvides dejar tu me gusta!🥳 También contame en los comentarios desde donde me leés🥰",
+    "imagen": "85",
+    "Ingredientes": {
+      "leche entera": "500g de leche entera",
+      "huevos": "3",
+      "azúcar": "75g de azúcar",
+      "almidón de maíz": "25g de almidón de maíz",
+      "harina": "25g de harina (puede ser 000 o 0000)",
+      "esencia de vainilla": "15ml de esencia de vainilla"
+    },
+    "procedimiento": "En una cacerola colocar la leche y el azúcar y llevar a ebullición. En un bowl mezclar los huevos, el almidón de maíz y la harina. Una vez hervida la leche verterla de a poco sobre la mezcla de huevos. Colocar la preparación nuevamente en la cacerola y llevar la cacerola al fuego y con una cuchara remover constantemente para evitar que se formen grumos. Cocinar hasta que espese. Una vez espesada, agregar la esencia de vainilla. Tamizar si quedaron grumos o si se desea una una textura más fina. "
+  },
+  {
+    "nombre": "PANQUEQUES DE AVENA💛 (CON SECRETO!)",
+    "tipo": "",
+    "descripcion": "Cuando tenia 14 años empecé a hacerme panqueques de avena. Al principio me parecían muy raros, no estaba acostumbrada a comer avena y tampoco estaba muy informada de cómo prepararla. A lo largo de los años fui aprendiendo más sobre este increíble cereal y cambiando la receta...Hoy puedo decir que tengo la DEFINITIVA!💛\n\nMi secreto para que hacer los mejores panqueques de avena es.....NO ENDULZAR LA MASA!! En vez de agregar azúcar o edulcorante, se añade una pizca generosa de sal para realzar el sabor de la miel, jarabe o dulce que pondremos luego sobre el panqueque.\n\nRinde para 2 porciones",
+    "imagen": "",
+    "Ingredientes": {
+      "Avena instantanea": "80g de avena instantanea",
+      "Huevo": "1",
+      "Leche": "90g de leche",
+      "Esencia de vainilla": "al gusto",
+      "Polvo para hornear": "1 cucharadita",
+      "Pizca de sal": "generosa",
+      "Manteca o Ghee": "al gusto"
+    },
+    "procedimiento": "Mezclar la leche con el huevo y agregar el resto de los ingredientes. Dejar que la avena se hidrate por 20 minutos (podés hacerlo la noche anterior y dejarla en la heladera). Opcional: licuar para obtener una miga más uniforme y liviana.\nEngrasar la sartén con manteca o ghee y colocar pequeñas porciones de masa. Cocinar a fuego medio-bajo. Una vez que aparezcan burbujas en la superficie del panqueque, dar vuelta y cocinar por 1 minuto más. Servir calientes con miel, dulce de leche, chocolate..."
+  },
+  {
+    "nombre": "Bocaditos de brownie🍫🙌🏽",
+    "tipo": "postre",
+    "descripcion": "Intensos, cremosos, con corteza crocante y muy chocolatosos. No te miento, comer uno de estos es como comer un pedacito de cielo. Hice estos bocaditos para el postre de año nuevo. Están cortados en pequeñas porciones para que se puedan comer con la mano cual finger food ¡Es por eso que son una excelente idea para una fiesta o evento! ¿Lo mejor de esta receta? Es que es MUY FÁCIL DE HACER‼️ La receta del brownie es de el mejor hermano cocinero @elpelucocina 👨🏻‍🍳 (con algunas modificaciones!)",
+    "imagen": "",
+    "Ingredientes": {
+      "Brownie": {
+        "manteca": "100g de manteca",
+        "chocolate amargo": "150g de chocolate amargo",
+        "huevos": "3",
+        "azúcar": "200g de azúcar (si usás chocolate con leche disminuí la cantidad de azúcar)",
+        "harina": "140g de harina 000"
+      },
+      "Toppings": {
+        "dulce de leche clásico": "",
+        "crema de leche batida": "",
+        "cacao amargo": ""
+      }
+    },
+    "procedimiento": "Precalentar el horno a 180 grados y forrar un molde cuadrado mediano con papel aluminio. Colocarle a este unas gotitas de aceite. Picar el chocolate y cortar la manteca en cubos. Derretirlos juntos a baño María o en microondas en intervalos de 30 segundos. Batir los huevos con el azúcar hasta alcanzar el punto letra. Parar la batidora y añadir la mezcla de chocolate con la manteca. Batir nuevamente hasta que se homogeneice la preparación. Integrar la harina. Colocar la mezcla en el molde y hornear por 30-40 minutos o hasta que al insertar un palillo o cuchillo este salga ligeramente húmedo. Dejar enfriar. Cortar en pequeños cuadrados y decorar con dulce de leche, crema de leche batida y cacao amargo."
   }
 ]

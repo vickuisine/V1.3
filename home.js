@@ -439,7 +439,11 @@ function graficarBuscador(grupo) {
     enlace.classList.add("enlaceLoco");
 
     const p = document.createElement("P");
-    p.classList.add("elementor-heading-title", "elementor-size-medium");
+    p.classList.add(
+      "elementor-heading-title",
+      "elementor-size-medium",
+      "tituloGod"
+    );
     p.textContent = dato.nombre.toLowerCase();
 
     const img = document.createElement("IMG");
