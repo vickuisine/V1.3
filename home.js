@@ -14,15 +14,11 @@ function funcionLupa() {
     }
   });
 }
-funcionLupa();
-obtenerTodosLosDatos();
-
-// function preparado(datos) {
-//   datos.forEach((element) => {
-//     graficarElemento(element);
-//   });
-// }
-
+window.addEventListener("load", function () {
+  funcionLupa();
+  obtenerTodosLosDatos();
+  generarPagina();
+});
 function obtenerTodosLosDatos() {
   obtenerParam();
 }
@@ -41,7 +37,6 @@ function obtenerParam() {
     }
   };
 }
-
 function obtenerDatos(datosParam) {
   const xmlh = new XMLHttpRequest();
   xmlh.open("GET", "datos.json", true);
@@ -59,10 +54,13 @@ function obtenerDatos(datosParam) {
 }
 function buscarPortadaY_Populares(d, dp) {
   const elemento = Object.values(dp);
-  for (let index = 0; index < 7; index++) {
+  for (let index = 0; index <= 24; index++) {
     const nombre = elemento[index].nombre;
     const popular = elemento[index].popular;
     const receta = elemento[index].receta;
+    const endulzarTusTardes = elemento[index].endulzarTusTardes;
+    const recetasDePan = elemento[index].recetasDePan;
+    const platosPrincipales = elemento[index].platosPrincipales;
 
     for (let i = 0; i < d.length; i++) {
       const element = d[i];
@@ -76,6 +74,15 @@ function buscarPortadaY_Populares(d, dp) {
       if (receta == element.nombre) {
         graficarAislado(element);
       }
+      if (endulzarTusTardes == element.nombre && index >= 6 && index <= 12) {
+        graficarElementoDestacado(element);
+      }
+      if (recetasDePan == element.nombre && index >= 12 && index <= 18) {
+        graficarElementoDestacado2(element);
+      }
+      if (platosPrincipales == element.nombre && index >= 18 && index <= 24) {
+        graficarElementoDestacado3(element);
+      }
     }
   }
 }
@@ -83,6 +90,12 @@ function preparado(datos, datosParam) {
   buscador(datos);
   buscarPortadaY_Populares(datos, datosParam);
   buscarRecientes(datos);
+}
+function generarPagina() {
+  loading = document.querySelector(".loading");
+  loading.classList.toggle("none");
+  mainDiv = document.querySelector("#mainDiv");
+  mainDiv.classList.toggle("none");
 }
 function buscarRecientes(datos) {
   for (let index = 0; index < 8; index++) {
@@ -144,6 +157,7 @@ function graficarColumnaRecientes(dato) {
   const div3Img1 = document.createElement("DIV");
   div3Img1.classList.add("elementor-widget-container");
   const img = document.createElement("IMG");
+  img.setAttribute("loading", "lazy");
   img.classList.add("elementor-widget-container");
   if (dato.imagen == "") {
     dato.imagen = "no";
@@ -210,6 +224,7 @@ function graficarColumnaRecientes2(dato) {
   const div3Img1 = document.createElement("DIV");
   div3Img1.classList.add("elementor-widget-container");
   const img = document.createElement("IMG");
+  img.setAttribute("loading", "lazy");
   img.classList.add("elementor-widget-container");
   if (dato.imagen == "") {
     dato.imagen = "no";
@@ -277,6 +292,7 @@ function graficarPortada(dato) {
   body4_img.classList.add("elementor", "widget", "container");
 
   const img = document.createElement("IMG");
+  img.setAttribute("loading", "lazy");
   img.classList.add("attachment-large", "size-large", "wp-image-381");
   if (dato.imagen == "") {
     dato.imagen = "no";
@@ -350,6 +366,7 @@ function graficarPopulares(dato) {
   div3Img1.classList.add("elementor-widget-container");
 
   const img = document.createElement("IMG");
+  img.setAttribute("loading", "lazy");
   img.classList.add("attachment-large", "size-large", "wp-image-274");
   if (dato.imagen == "") {
     dato.imagen = "no";
@@ -395,6 +412,222 @@ function removerTodosLosGraficos() {
   sectiones.forEach((e) => {
     cl(e.classList.add("none"));
   });
+}
+function graficarElementoDestacado(dato) {
+  const section = document.querySelector(
+    "#mainDiv > div:nth-child(3) > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-053c738.elementor-section-content-middle.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-be97d09.elementor-section-content-middle.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default"
+  );
+  const div = document.querySelector(
+    "#mainDiv > div:nth-child(3) > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-053c738.elementor-section-content-middle.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-be97d09.elementor-section-content-middle.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div.elementor-container.elementor-column-gap-default"
+  );
+  const div1 = document.createElement("DIV");
+  div1.classList.add(
+    "elementor-column",
+    "elementor-col-33",
+    "elementor-inner-column",
+    "elementor-element",
+    "elementor-element-421e8d76"
+  );
+  const div2 = document.createElement("DIV");
+  div2.classList.add("elementor-widget-wrap", "elementor-element-populated");
+
+  const div3Img = document.createElement("DIV");
+  div3Img.classList.add(
+    "elementor-element",
+    "elementor-element-980ba07",
+    "elementor-widget__width-inherit",
+    "elementor-widget",
+    "elementor-widget-image"
+  );
+  const div3Img1 = document.createElement("DIV");
+  div3Img1.classList.add("elementor-widget-container");
+
+  const img = document.createElement("IMG");
+  img.setAttribute("loading", "lazy");
+  img.classList.add("attachment-large", "size-large", "wp-image-274");
+  if (dato.imagen == "") {
+    dato.imagen = "no";
+  }
+  const datoDeImagen = "img/" + dato.imagen + ".jpg";
+  img.src = datoDeImagen;
+  // Graficar las primeras 3 fotos
+
+  const div3p = document.createElement("DIV");
+  div3p.classList.add(
+    "elementor-element",
+    "elementor-element-052abe6",
+    "elementor-widget",
+    "elementor-widget-heading"
+  );
+  const div3p1 = document.createElement("DIV");
+  div3p1.classList.add("elementor-widget-container");
+
+  const p = document.createElement("P");
+  p.classList.add("elementor-heading-title", "elementor-size-medium");
+  p.textContent = dato.nombre.toLowerCase();
+
+  const enlace = document.createElement("A");
+  enlace.href = "/receta/?receta=" + dato.nombre;
+  enlace.classList.add("enlace");
+
+  section.appendChild(div);
+  div.appendChild(div1);
+  div1.appendChild(div2);
+
+  div2.appendChild(div3Img);
+  div3Img.appendChild(div3Img1);
+  div3Img.appendChild(enlace);
+  div3Img.appendChild(img);
+
+  div2.appendChild(div3p);
+  div3p.appendChild(div3p1);
+  div3p1.appendChild(p);
+
+  cl(section);
+}
+function graficarElementoDestacado2(dato) {
+  const section = document.querySelector(
+    "#mainDiv > div:nth-child(3) > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-7f99e92.elementor-section-content-middle.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-92a6007.elementor-section-content-middle.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default"
+  );
+  const div = document.querySelector(
+    "#mainDiv > div:nth-child(3) > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-7f99e92.elementor-section-content-middle.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-92a6007.elementor-section-content-middle.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div"
+  );
+  const div1 = document.createElement("DIV");
+  div1.classList.add(
+    "elementor-column",
+    "elementor-col-33",
+    "elementor-inner-column",
+    "elementor-element",
+    "elementor-element-421e8d76"
+  );
+  const div2 = document.createElement("DIV");
+  div2.classList.add("elementor-widget-wrap", "elementor-element-populated");
+
+  const div3Img = document.createElement("DIV");
+  div3Img.classList.add(
+    "elementor-element",
+    "elementor-element-980ba07",
+    "elementor-widget__width-inherit",
+    "elementor-widget",
+    "elementor-widget-image"
+  );
+  const div3Img1 = document.createElement("DIV");
+  div3Img1.classList.add("elementor-widget-container");
+
+  const img = document.createElement("IMG");
+  img.setAttribute("loading", "lazy");
+  img.classList.add("attachment-large", "size-large", "wp-image-274");
+  if (dato.imagen == "") {
+    dato.imagen = "no";
+  }
+  const datoDeImagen = "img/" + dato.imagen + ".jpg";
+  img.src = datoDeImagen;
+  // Graficar las primeras 3 fotos
+
+  const div3p = document.createElement("DIV");
+  div3p.classList.add(
+    "elementor-element",
+    "elementor-element-052abe6",
+    "elementor-widget",
+    "elementor-widget-heading"
+  );
+  const div3p1 = document.createElement("DIV");
+  div3p1.classList.add("elementor-widget-container");
+
+  const p = document.createElement("P");
+  p.classList.add("elementor-heading-title", "elementor-size-medium");
+  p.textContent = dato.nombre.toLowerCase();
+
+  const enlace = document.createElement("A");
+  enlace.href = "/receta/?receta=" + dato.nombre;
+  enlace.classList.add("enlace");
+
+  section.appendChild(div);
+  div.appendChild(div1);
+  div1.appendChild(div2);
+
+  div2.appendChild(div3Img);
+  div3Img.appendChild(div3Img1);
+  div3Img.appendChild(enlace);
+  div3Img.appendChild(img);
+
+  div2.appendChild(div3p);
+  div3p.appendChild(div3p1);
+  div3p1.appendChild(p);
+
+  cl(section);
+}
+function graficarElementoDestacado3(dato) {
+  const section = document.querySelector(
+    "#mainDiv > div:nth-child(3) > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-13da31f.elementor-section-content-middle.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-94e2d3a.elementor-section-content-middle.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default"
+  );
+  const div = document.querySelector(
+    "#mainDiv > div:nth-child(3) > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-13da31f.elementor-section-content-middle.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-94e2d3a.elementor-section-content-middle.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div"
+  );
+  const div1 = document.createElement("DIV");
+  div1.classList.add(
+    "elementor-column",
+    "elementor-col-33",
+    "elementor-inner-column",
+    "elementor-element",
+    "elementor-element-421e8d76"
+  );
+  const div2 = document.createElement("DIV");
+  div2.classList.add("elementor-widget-wrap", "elementor-element-populated");
+
+  const div3Img = document.createElement("DIV");
+  div3Img.classList.add(
+    "elementor-element",
+    "elementor-element-980ba07",
+    "elementor-widget__width-inherit",
+    "elementor-widget",
+    "elementor-widget-image"
+  );
+  const div3Img1 = document.createElement("DIV");
+  div3Img1.classList.add("elementor-widget-container");
+
+  const img = document.createElement("IMG");
+  img.setAttribute("loading", "lazy");
+  img.classList.add("attachment-large", "size-large", "wp-image-274");
+  if (dato.imagen == "") {
+    dato.imagen = "no";
+  }
+  const datoDeImagen = "img/" + dato.imagen + ".jpg";
+  img.src = datoDeImagen;
+  // Graficar las primeras 3 fotos
+
+  const div3p = document.createElement("DIV");
+  div3p.classList.add(
+    "elementor-element",
+    "elementor-element-052abe6",
+    "elementor-widget",
+    "elementor-widget-heading"
+  );
+  const div3p1 = document.createElement("DIV");
+  div3p1.classList.add("elementor-widget-container");
+
+  const p = document.createElement("P");
+  p.classList.add("elementor-heading-title", "elementor-size-medium");
+  p.textContent = dato.nombre.toLowerCase();
+
+  const enlace = document.createElement("A");
+  enlace.href = "/receta/?receta=" + dato.nombre;
+  enlace.classList.add("enlace");
+
+  section.appendChild(div);
+  div.appendChild(div1);
+  div1.appendChild(div2);
+
+  div2.appendChild(div3Img);
+  div3Img.appendChild(div3Img1);
+  div3Img.appendChild(enlace);
+  div3Img.appendChild(img);
+
+  div2.appendChild(div3p);
+  div3p.appendChild(div3p1);
+  div3p1.appendChild(p);
+
+  cl(section);
 }
 function buscador(datos) {
   graficarTodos(datos);
@@ -450,6 +683,7 @@ function graficarBuscador(grupo) {
     img.classList.add("imagen-buscador");
     img.setAttribute("width", "275");
     img.setAttribute("height", "275");
+    img.setAttribute("loading", "lazy");
     if (dato.imagen == "") {
       dato.imagen = "no";
     }

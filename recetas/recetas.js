@@ -12,7 +12,6 @@ function preparado(datos) {
     const element = datos[index].tipo;
 
     if (element == tipoReceta) {
-      cl(datos[index]);
       arr.push(datos[index]);
       // graficarElemento(datos[index]);
     }
@@ -21,7 +20,6 @@ function preparado(datos) {
   graficarDeACuatro(arr);
 }
 function graficarDeACuatro(arr) {
-  cl(arr);
   for (let i = 0; i < arr.length; i += 4) {
     const grupo = arr.slice(i, i + 4);
     graficarElemento(grupo);
@@ -37,7 +35,7 @@ function obtenerDatos() {
     if (e.target.readyState == 3) {
       const datosJSON = this.responseText;
       const datos = JSON.parse(datosJSON);
-      cl(datos);
+
       return preparado(datos);
     } else {
       return cl("nmo");
@@ -95,12 +93,13 @@ function graficarElemento(dato) {
     img.classList.add("attachment-large", "size-large", "wp-image-380");
     img.setAttribute("width", "819");
     img.setAttribute("height", "1024");
+    img.setAttribute("loading", "lazy");
     if (dt.imagen == "") {
       dt.imagen = "no";
       img.classList.add("zoom");
     }
     const datoDeImagen = "../img/" + dt.imagen + ".jpg";
-    cl(datoDeImagen);
+
     img.src = datoDeImagen;
 
     const div3p = document.createElement("DIV");
@@ -136,7 +135,5 @@ function graficarElemento(dato) {
 
   masterDiv.appendChild(section);
   section.appendChild(div);
-
-  cl(dato);
 }
 obtenerDatos();
