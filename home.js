@@ -35,20 +35,20 @@ function obtenerParam() {
       return cl("nmo");
     }
   };
-}
-function obtenerDatos(datosParam) {
-  const xmlh = new XMLHttpRequest();
-  xmlh.open("GET", "datos.json", true);
-  xmlh.send();
-  xmlh.onreadystatechange = function (e) {
-    if (e.target.readyState == 3) {
-      const datos = JSON.parse(this.responseText);
-
-      return preparado(datos, datosParam);
-    } else {
-      return cl("nmo");
-    }
-  };
+  function obtenerDatos(datosParam) {
+    const xmlh = new XMLHttpRequest();
+    xmlh.open("GET", "datos.json", true);
+    xmlh.send();
+    xmlh.onreadystatechange = function (e) {
+      if (e.target.readyState == 3) {
+        const datos = JSON.parse(this.responseText);
+        cl(datos);
+        return preparado(datos, datosParam);
+      } else {
+        return cl("nmo");
+      }
+    };
+  }
 }
 function buscarPortadaY_Populares(d, dp) {
   const elemento = Object.values(dp);
