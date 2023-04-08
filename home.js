@@ -42,7 +42,7 @@ function obtenerParam() {
     xmlh.onreadystatechange = function (e) {
       if (e.target.readyState == 3) {
         const datos = JSON.parse(this.responseText);
-        cl(datos);
+
         return preparado(datos, datosParam);
       } else {
         return cl("nmo");
