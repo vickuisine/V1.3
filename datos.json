@@ -1,5 +1,36 @@
 [
   {
+    "nombre": "Rosca de Pascua",
+    "tipo": "panaderia",
+    "descripcion": "Una versión de Rosca de pascua que te va a encantar!💛 Este año te comparto la receta de una rosca de pascua distinta, perfumada con ralladura de cítricos y coronada con frutos secos tostados😍 Guardá esta receta para hacerla este domingo de pascua y disfrutarla en familia!! Antes de pasar a la receta contame desde dónde me lees y si en tu casa comen rosca o roscón de reyes en esta fecha🫶🏽",
+    "imagen": "A001",
+    "Ingredientes": {
+    "Prefermento": {
+    "leche": "150 g de leche tibia",
+    "harina": "150 g de harina 000",
+    "levadura": "15 g de levadura fresca o 5 g de levadura seca"
+    },
+    "Masa": {
+    "harina": "250 g de harina 000",
+    "ralladura de naranja y limón": "ralladura de 1/4 naranja y 1/4 de limón",
+    "manteca": "70 g de manteca",
+    "azúcar": "70 g de azúcar",
+    "miel": "20 g de miel",
+    "sal": "2 g de sal",
+    "esencia de vainilla": "5 g de esencia de vainilla"
+    },
+    "Crema pastelera": {
+    "leche": "330 g de leche",
+    "azúcar": "100 g de azúcar",
+    "almidón de maíz": "30 g de almidón de maíz",
+    "huevos": "2",
+    "esencia de vainilla": "5 g de esencia de vainilla"
+    },
+    "mix de frutos secos": "80 g de mix de frutos secos sin maní"
+    },
+    "procedimiento": "HORNEADO: Hornear a 180 grados C por 15 - 20 minutos. Retirar, pintar con huevo batido y hornear 5 minutos más. Retirar, colocar la crema pastelera, los frutos secos picados y hornear por 10 minutos más. CREMA PASTELERA: Colocar la leche y el azúcar en una olla y dejar que hierva. En otro bowl mezclar los huevos y el almidón de maíz. Una vez que la leche alcance el punto de ebullición, combinarla con la mezcla de huevos mientras se remueve..."
+    },
+  {
     "nombre": "ÑOQUIS CON SALSA DE POLLO Y CREMA",
     "tipo": "panaderia",
     "descripcion": "Pero que combinación!😍 Los ñoquis, uno de mis platos preferidos, con una salsa que crecí comiendo en mi casa Para preparar esta delicia utilizamos las ollas de la nueva línea PRIMARY de @tefal_argentina 🤩 Son de acero inoxidable y aptas para colocar en el horno (ideal si quisiéramos gratinar estos ñoquis con mucho queso😋).",
