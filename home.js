@@ -42,8 +42,7 @@ function obtenerDatos(datosParam) {
   xmlh.send();
   xmlh.onreadystatechange = function (e) {
     if (e.target.readyState == 3) {
-      const datosJSON = this.responseText;
-      const datos = JSON.parse(datosJSON);
+      const datos = JSON.parse(this.responseText);
 
       return preparado(datos, datosParam);
     } else {
