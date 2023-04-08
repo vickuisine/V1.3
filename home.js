@@ -40,10 +40,9 @@ function obtenerParam() {
     xmlh.open("GET", "datos.json", true);
     xmlh.send();
     xmlh.onreadystatechange = function (e) {
-      if (e.target.readyState == 3) {
+      if (e.target.readyState == 4) {
         const datos = JSON.parse(this.responseText);
-
-        return preparado(datos, datosParam);
+        preparado(datos, datosParam);
       } else {
         return cl("nmo");
       }
