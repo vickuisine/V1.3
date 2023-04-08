@@ -1,3 +1,13 @@
+window.addEventListener("load", function () {
+  obtenerDatos();
+  generarPagina();
+});
+function generarPagina() {
+  loading = document.querySelector(".loading");
+  loading.classList.toggle("none");
+  mainDiv = document.querySelector("#mainDiv");
+  mainDiv.classList.toggle("none");
+}
 function cl(dat) {
   console.log(dat);
 }
@@ -28,6 +38,7 @@ function obtenerDatos() {
     }
   };
 }
+
 obtenerDatos();
 
 function graficarElemento(dato) {
