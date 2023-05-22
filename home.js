@@ -5,12 +5,14 @@ function funcionLupa() {
   const lupa = document.querySelector("#lupa");
   const main = document.querySelector("#mainDiv");
   const buscador = document.querySelector("#buscador");
+  const InpBuscador = document.querySelector("#wp-block-search__input-5");
 
   document.addEventListener("click", (e) => {
     if (e.target == lupa || e.target == lupa2) {
       cl(e);
       main.classList.toggle("none");
       buscador.classList.toggle("none");
+      InpBuscador.focus();
     }
   });
 }

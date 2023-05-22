@@ -359,6 +359,9 @@ body > div > footer > div {
     font-weight: 500;
     text-transform: none;
   }
+  #modal-8-content > ul > li:nth-child(5) > div > ul {
+    display: flex !important;
+  }
   body
     > div
     > div:nth-child(3)
@@ -394,9 +397,7 @@ body > div > footer > div {
   width: 70%;
   font-size: 70rem;
 
-  margin-bottom: 25px;
   margin-top: 10px;
-  padding: 10px;
 }
 .buscador {
   pointer-events: auto;
@@ -495,6 +496,7 @@ body > div > footer > div {
 }
 .icono-lupa {
   text-align: center;
+  width: 100%;
   margin: auto;
   color: #3127235c;
   padding: 0.5rem;
@@ -592,4 +594,28 @@ body > div > footer > div {
     transform: translateY(0px);
     background: #d0b1dc61;
   }
+}
+#mainDiv
+  > div:nth-child(3)
+  > div
+  > div
+  > section.elementor-section.elementor-top-section.elementor-element.elementor-element-56eec86.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default
+  > div
+  > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element.elementor-element-4931d25 {
+  position: relative;
+  min-height: 1px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.scroll-animation p {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.scroll-animation.appear-animation p {
+  opacity: 1;
+  transform: translateY(0);
 }
