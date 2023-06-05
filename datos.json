@@ -1,5 +1,30 @@
 [
   {
+    "nombre": "Tarta de manzana",
+  "tipo": "panaderia",
+  "descripcion": "Hoy preparamos una tarta de manzana riquísima para merendar💛\n\nLo que más me gusta de esta receta, es la textura cremosa del relleno de manzana y la suavidad de la masa.\n\nEsta tarta no solo puede servirse a la hora de la merienda, sino también como postre con una buena bocha de helado de crema americana.\n\n¡Espero que les guste mi versión!\n\nSi la preparan, no olviden mandarme foto de sus tartas de manzana😍",
+  "imagen": "tarta de manzana",
+  "Ingredientes": {
+    "Masa": {
+      "harina": "400 g de harina 0000",
+      "azúcar": "65 g de azúcar",
+      "manteca": "150 g de manteca",
+      "leche fría": "150 g de leche fría",
+      "sal": "5 g de sal"
+    },
+    "Relleno": {
+      "manzanas": "10 manzanas medianas: rojas si preferís un relleno más dulce, verdes si preferís uno más ácido.",
+      "azúcar": "200 g de azúcar",
+      "canela en polvo": "¼ cucharadita de canela en polvo",
+      "nuez moscada": "¼ cucharadita de nuez moscada",
+      "manteca": "40 g de manteca",
+      "agua + almidón de maíz": "10 g de agua + 10 g de almidón de maíz",
+      "sal": "Pizca de sal"
+    }
+  },
+  "procedimiento": "Horno 170ºC por 40 - 50 minutos o hasta que dore la superficie."
+},
+  {
     "nombre": "Rosca de Pascua",
     "tipo": "panaderia",
     "descripcion": "Una versión de Rosca de pascua que te va a encantar!💛 Este año te comparto la receta de una rosca de pascua distinta, perfumada con ralladura de cítricos y coronada con frutos secos tostados😍 Guardá esta receta para hacerla este domingo de pascua y disfrutarla en familia!! Antes de pasar a la receta contame desde dónde me lees y si en tu casa comen rosca o roscón de reyes en esta fecha🫶🏽",
@@ -226,7 +251,7 @@
     "procedimiento": "1. Hornear a 180 grados C por 20 minutos. 2. Retirar, pintar con huevo batido y hornear 5 minutos más. 3. Retirar, colocar la crema pastelera y hornear por 10 minutos más. Colocar la leche y el azúcar en una olla y dejar que hierva. En otro bowl mezclar los huevos y el almidón de maíz. Una vez que la leche alcance el punto de ebullición, combinarla con la mezcla de huevos mientras se remueve constantemente. Colocar la mezcla nuevamente en la olla y cocinar hasta espesar. Una vez lista, apagar el fuego e incorporar la esencia de vainilla. Colocarla en un recipiente amplio con papel film en contacto y dejar enfriar en heladera por aproximadamente 2 horas. Antes de utilizar, batir para recuperar la textura original. Opcional: tamizar para deshacerse de cualquier grumo y obtener una textura súper sedosa."
   },
   {
-    "nombre": "GALLETONES DE AVENA",
+    "nombre": "Galletones de avena",
     "tipo": "panaderia",
     "descripcion": "Con un interior súuuper suavecito y un sabor especiado increíble!😍\n☑️Sin harinas ni azúcares refinados\n☑️Perfectos para llevar al trabajo y para la merienda de los chicos\n☑️Se pueden congelar\nAsegurate de que tus harinas sean de CALIDAD! Yo uso avena y harina integral agroecológica y sin agrotóxicos de @acuario.organicos . El sabor y las texturas de los cereales son increíbles!🙌🏽",
     "imagen": "9",
@@ -549,7 +574,7 @@
     "procedimiento": "En un bowl, mezclar los ingredientes secos (harina y sal) y reservar. En otro bowl, batir los huevos y agregar el aceite neutro, la leche, el azúcar, la pera pisada sin cáscara y la esencia de vainilla. Mezclar bien y agregar los ingredientes secos poco a poco, mezclando hasta incorporar bien. Agregar las peras cortadas en cubos y mezclar con cuidado. Colocar la mezcla en un molde previamente enmantecado y enharinado. Decorar con las nueces y hornear a 180°C durante aproximadamente 40 minutos o hasta que al pinchar con un palillo salga limpio. Dejar enfriar, espolvorear con azúcar impalpable y servir. ¡Que disfruten su deliciosa torta de pera!🍐😋"
   },
   {
-    "nombre": "TORTA SÚPER HÚMEDA DE CHOCOLATE Y AVENA!",
+    "nombre": "Torta húmeda de avena y cacao",
     "tipo": "postre",
     "descripcion": "Un postre diferente y delicioso para disfrutar en la mesa de año nuevo! Con base de avena y suuuuuper chocolatosa! Solamente para amantes del chocolate amargo. Si no sos muy fan del chocolate amargo, tengo muchas más recetas de postres en mi feed para que hagas este 31/12👏🏽",
     "imagen": "25",
